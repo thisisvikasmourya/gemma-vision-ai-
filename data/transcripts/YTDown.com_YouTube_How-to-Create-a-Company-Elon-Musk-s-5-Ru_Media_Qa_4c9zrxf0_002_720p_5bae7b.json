@@ -1,0 +1,626 @@
+{
+	"systeminfo": "WHISPER : VITISAI = 0 | COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | ACCELERATE = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "base",
+		"multilingual": false,
+		"vocab": 51864,
+		"audio": {
+			"ctx": 1500,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"text": {
+			"ctx": 448,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/vikasmourya/ai-models/video-trans/whisper.cpp/models/ggml-base.en.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:12,620"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 12620
+			},
+			"text": " I think the first is depending on how well you want to do, particularly if you're starting"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:12,620",
+				"to": "00:00:15,020"
+			},
+			"offsets": {
+				"from": 12620,
+				"to": 15020
+			},
+			"text": " a company, you need to work super hard."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:15,020",
+				"to": "00:00:17,300"
+			},
+			"offsets": {
+				"from": 15020,
+				"to": 17300
+			},
+			"text": " So what does super hard mean?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:17,300",
+				"to": "00:00:22,220"
+			},
+			"offsets": {
+				"from": 17300,
+				"to": 22220
+			},
+			"text": " Well, when my brother and I were starting our first company, instead of getting an apartment,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:22,220",
+				"to": "00:00:27,060"
+			},
+			"offsets": {
+				"from": 22220,
+				"to": 27060
+			},
+			"text": " we just rented a small office and we slept on the couch."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:27,060",
+				"to": "00:00:35,420"
+			},
+			"offsets": {
+				"from": 27060,
+				"to": 35420
+			},
+			"text": " We shared at the YMCA and we had just one computer, so the website was up during the day and"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:35,420",
+				"to": "00:00:51,760"
+			},
+			"offsets": {
+				"from": 35420,
+				"to": 51760
+			},
+			"text": " I was coding at night, seven days a week all the time."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:51,760",
+				"to": "00:00:57,480"
+			},
+			"offsets": {
+				"from": 51760,
+				"to": 57480
+			},
+			"text": " Every card, every waking hour, that's the thing I would say, particularly if you're starting"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:57,480",
+				"to": "00:00:58,480"
+			},
+			"offsets": {
+				"from": 57480,
+				"to": 58480
+			},
+			"text": " a company."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:58,480",
+				"to": "00:01:02,260"
+			},
+			"offsets": {
+				"from": 58480,
+				"to": 62260
+			},
+			"text": " And if you do a simple math to say, \"Okay, if somebody else is working 50 hours and you're"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:02,260",
+				"to": "00:01:07,440"
+			},
+			"offsets": {
+				"from": 62260,
+				"to": 67440
+			},
+			"text": " working 100,\" you'll get twice as much done in the course of a year as the other company."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:21,760",
+				"to": "00:01:32,680"
+			},
+			"offsets": {
+				"from": 81760,
+				"to": 92680
+			},
+			"text": " I think, too, is you've got to make sure that whatever you're doing is a great product"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:32,680",
+				"to": "00:01:33,680"
+			},
+			"offsets": {
+				"from": 92680,
+				"to": 93680
+			},
+			"text": " or service."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:33,680",
+				"to": "00:01:34,680"
+			},
+			"offsets": {
+				"from": 93680,
+				"to": 94680
+			},
+			"text": " It has to be really great."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:34,680",
+				"to": "00:01:40,060"
+			},
+			"offsets": {
+				"from": 94680,
+				"to": 100060
+			},
+			"text": " And I go back to what I was saying earlier, where if you're a new company, unless it's"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:40,060",
+				"to": "00:01:46,880"
+			},
+			"offsets": {
+				"from": 100060,
+				"to": 106880
+			},
+			"text": " like some new industry or new market, if it's an untapped market, then you have more ability"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:46,880",
+				"to": "00:01:51,120"
+			},
+			"offsets": {
+				"from": 106880,
+				"to": 111120
+			},
+			"text": " to, the standard is lower for your product or service, but if you're entering anything"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:51,120",
+				"to": "00:01:57,960"
+			},
+			"offsets": {
+				"from": 111120,
+				"to": 117960
+			},
+			"text": " where there's an existing marketplace against large entrenched competitors, then your product"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:57,960",
+				"to": "00:02:00,160"
+			},
+			"offsets": {
+				"from": 117960,
+				"to": 120160
+			},
+			"text": " or service needs to be much better than theirs."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:00,160",
+				"to": "00:02:04,480"
+			},
+			"offsets": {
+				"from": 120160,
+				"to": 124480
+			},
+			"text": " It can't be a little bit better because then you put yourself in the shoes of the consumer"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:04,480",
+				"to": "00:02:06,280"
+			},
+			"offsets": {
+				"from": 124480,
+				"to": 126280
+			},
+			"text": " and they say, \"Why would you buy it as a consumer?"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:06,280",
+				"to": "00:02:10,280"
+			},
+			"offsets": {
+				"from": 126280,
+				"to": 130280
+			},
+			"text": " You're always going to buy the trusted brand unless there's a big difference.\""
+		},
+		{
+			"timestamps": {
+				"from": "00:02:10,280",
+				"to": "00:02:16,920"
+			},
+			"offsets": {
+				"from": 130280,
+				"to": 136920
+			},
+			"text": " So a lot of times, one entrepreneur will come up with something which is only slightly better."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:16,920",
+				"to": "00:02:18,400"
+			},
+			"offsets": {
+				"from": 136920,
+				"to": 138400
+			},
+			"text": " It can't just be slightly better."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:18,400",
+				"to": "00:02:30,440"
+			},
+			"offsets": {
+				"from": 138400,
+				"to": 150440
+			},
+			"text": " It's got to be a lot better."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:30,440",
+				"to": "00:02:37,600"
+			},
+			"offsets": {
+				"from": 150440,
+				"to": 157600
+			},
+			"text": " The other thing I'd say is that if you're creating a company or if you're joining a company,"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:37,600",
+				"to": "00:02:41,040"
+			},
+			"offsets": {
+				"from": 157600,
+				"to": 161040
+			},
+			"text": " the most important thing is to attract great people."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:41,040",
+				"to": "00:02:45,720"
+			},
+			"offsets": {
+				"from": 161040,
+				"to": 165720
+			},
+			"text": " So either join a group that's amazing that you really respect or if you're building"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:45,720",
+				"to": "00:02:47,160"
+			},
+			"offsets": {
+				"from": 165720,
+				"to": 167160
+			},
+			"text": " a company, you've got to gather great people."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:47,160",
+				"to": "00:02:50,840"
+			},
+			"offsets": {
+				"from": 167160,
+				"to": 170840
+			},
+			"text": " I mean, all the company is, is a group of people that have gathered together to create"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:50,840",
+				"to": "00:02:52,560"
+			},
+			"offsets": {
+				"from": 170840,
+				"to": 172560
+			},
+			"text": " a product or service."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:52,560",
+				"to": "00:02:56,760"
+			},
+			"offsets": {
+				"from": 172560,
+				"to": 176760
+			},
+			"text": " And so depending upon how talented and hardworking that group is and the degree to which they"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:56,760",
+				"to": "00:03:02,480"
+			},
+			"offsets": {
+				"from": 176760,
+				"to": 182480
+			},
+			"text": " are focused cohesively in a good direction, that will determine the success of the company."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:02,480",
+				"to": "00:03:14,500"
+			},
+			"offsets": {
+				"from": 182480,
+				"to": 194500
+			},
+			"text": " So do everything you can to gather great people if you're creating a company."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:14,500",
+				"to": "00:03:21,760"
+			},
+			"offsets": {
+				"from": 194500,
+				"to": 201760
+			},
+			"text": " Then, I'd say focus on signal over noise."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:21,760",
+				"to": "00:03:24,120"
+			},
+			"offsets": {
+				"from": 201760,
+				"to": 204120
+			},
+			"text": " A lot of companies get confused."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:24,120",
+				"to": "00:03:28,640"
+			},
+			"offsets": {
+				"from": 204120,
+				"to": 208640
+			},
+			"text": " They spend money on things that don't actually make the product better."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:28,640",
+				"to": "00:03:33,520"
+			},
+			"offsets": {
+				"from": 208640,
+				"to": 213520
+			},
+			"text": " So for example, at Tesla, we've never spent any money on advertising."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:33,520",
+				"to": "00:03:39,240"
+			},
+			"offsets": {
+				"from": 213520,
+				"to": 219240
+			},
+			"text": " We've put all of the money into R&D and manufacturing and design to try to make the car as good"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:39,240",
+				"to": "00:03:40,840"
+			},
+			"offsets": {
+				"from": 219240,
+				"to": 220840
+			},
+			"text": " as possible."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:40,840",
+				"to": "00:03:44,240"
+			},
+			"offsets": {
+				"from": 220840,
+				"to": 224240
+			},
+			"text": " And I think that's the way to go."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:44,240",
+				"to": "00:03:49,040"
+			},
+			"offsets": {
+				"from": 224240,
+				"to": 229040
+			},
+			"text": " So if we're in a given company, just keep thinking about are these efforts that people"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:49,040",
+				"to": "00:03:50,040"
+			},
+			"offsets": {
+				"from": 229040,
+				"to": 230040
+			},
+			"text": " are expanding?"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:50,040",
+				"to": "00:03:52,840"
+			},
+			"offsets": {
+				"from": 230040,
+				"to": 232840
+			},
+			"text": " Are they resulting in a better product or service?"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:52,840",
+				"to": "00:03:54,640"
+			},
+			"offsets": {
+				"from": 232840,
+				"to": 234640
+			},
+			"text": " And if they're not, stop those efforts."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:58,640",
+				"to": "00:04:08,920"
+			},
+			"offsets": {
+				"from": 238640,
+				"to": 248920
+			},
+			"text": " And then I think the final thing I would encourage you to do is, now is the time to"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:08,920",
+				"to": "00:04:10,680"
+			},
+			"offsets": {
+				"from": 248920,
+				"to": 250680
+			},
+			"text": " take risk."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:10,680",
+				"to": "00:04:17,840"
+			},
+			"offsets": {
+				"from": 250680,
+				"to": 257840
+			},
+			"text": " You don't have kids, but as you get older, your obligations increase."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:17,840",
+				"to": "00:04:21,960"
+			},
+			"offsets": {
+				"from": 257840,
+				"to": 261960
+			},
+			"text": " And once you have a family, you start taking risk not just for yourself, but for your family"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:21,960",
+				"to": "00:04:22,960"
+			},
+			"offsets": {
+				"from": 261960,
+				"to": 262960
+			},
+			"text": " as well."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:22,960",
+				"to": "00:04:26,720"
+			},
+			"offsets": {
+				"from": 262960,
+				"to": 266720
+			},
+			"text": " It gets much harder to do things that might not work out."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:26,720",
+				"to": "00:04:31,560"
+			},
+			"offsets": {
+				"from": 266720,
+				"to": 271560
+			},
+			"text": " So now is the time to do that before you have those obligations."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:31,560",
+				"to": "00:04:35,760"
+			},
+			"offsets": {
+				"from": 271560,
+				"to": 275760
+			},
+			"text": " So I would encourage you to take risks and not do something bold."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:35,760",
+				"to": "00:04:36,280"
+			},
+			"offsets": {
+				"from": 275760,
+				"to": 276280
+			},
+			"text": " You won't regret it."
+		}
+	]
+}

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Intelligence & Transcription Platform</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
+
+  <!-- Header -->
+  <header class="app-header">
+    <div class="header-content">
+      <div class="brand">
+        <div class="brand-logo">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polygon points="23 7 16 12 23 17 23 7"></polygon>
+            <rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
+          </svg>
+        </div>
+        <div>
+          <h1 class="brand-title">OmniVid AI</h1>
+          <p class="brand-subtitle">Local Video Understanding & Metal Transcription</p>
+        </div>
+      </div>
+
+      <div class="header-pills">
+        <div class="status-pill" id="ollamaStatus">
+          <span class="status-dot"></span>
+          <span class="status-text">Gemma 4 12B (Ollama)</span>
+        </div>
+        <div class="status-pill whisper-pill">
+          <span class="status-dot active"></span>
+          <span class="status-text">Whisper.cpp (Metal GPU)</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="main-container">
+
+    <!-- Upload & Selector Section -->
+    <section class="selection-card" id="selectionSection">
+      <div class="upload-dropzone" id="dropzone">
+        <input type="file" id="fileInput" accept="video/*" class="file-input-hidden">
+        <div class="upload-icon-wrapper">
+          <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="17 8 12 3 7 8"></polyline>
+            <line x1="12" y1="3" x2="12" y2="15"></line>
+          </svg>
+        </div>
+        <h3>Drop any video here or click to browse</h3>
+        <p>Supports MP4, MOV, MKV, AVI • 100% processed locally on your Mac</p>
+      </div>
+
+      <!-- Existing Video Library Selector -->
+      <div class="existing-videos-wrapper">
+        <div class="section-title-row">
+          <h4>Available Local Videos</h4>
+          <button class="btn-refresh" id="refreshVideosBtn" title="Refresh list">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M23 4v6h-6"></path><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path>
+            </svg>
+          </button>
+        </div>
+        <div class="video-grid" id="videoGrid">
+          <div class="loading-spinner-wrapper"><span class="loader"></span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Progress Indicator Overlay / Banner -->
+    <section class="progress-section" id="progressSection" style="display: none;">
+      <div class="progress-card">
+        <div class="progress-header">
+          <div>
+            <h3 id="progressStageTitle">Processing Video...</h3>
+            <p id="progressMessage">Extracting audio and sampling visual frames...</p>
+          </div>
+          <span class="progress-pct" id="progressPctText">0%</span>
+        </div>
+        <div class="progress-bar-track">
+          <div class="progress-bar-fill" id="progressBarFill" style="width: 0%"></div>
+        </div>
+        <div class="pipeline-steps">
+          <div class="step-badge" id="stepAudio">1. Audio Demux</div>
+          <div class="step-badge" id="stepWhisper">2. Metal Whisper</div>
+          <div class="step-badge" id="stepFrames">3. Frame Inspector</div>
+          <div class="step-badge" id="stepGemma">4. Gemma 4 Reasoning</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Workspace View (Video Player + Multimodal Tabs) -->
+    <section class="workspace-section" id="workspaceSection" style="display: none;">
+      
+      <!-- Video Player Column -->
+      <div class="player-column">
+        <div class="player-card">
+          <div class="video-wrapper">
+            <video id="videoPlayer" controls preload="metadata"></video>
+          </div>
+          <div class="video-meta-bar">
+            <div class="video-info">
+              <h3 id="currentVideoTitle">video.mp4</h3>
+              <div class="video-tags" id="videoMetaTags">
+                <span class="badge" id="metaDuration">--:--</span>
+                <span class="badge" id="metaResolution">1280x720</span>
+                <span class="badge" id="metaFps">30 fps</span>
+              </div>
+            </div>
+            <button class="btn-secondary btn-sm" id="changeVideoBtn">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="15 18 9 12 15 6"></polyline>
+              </svg>
+              Select Another
+            </button>
+          </div>
+        </div>
+
+        <!-- Quick Summary Mini-Card -->
+        <div class="mini-overview-card">
+          <h4>Video Intelligence Overview</h4>
+          <div class="stat-boxes">
+            <div class="stat-box">
+              <span class="stat-val" id="statSegments">0</span>
+              <span class="stat-lbl">Dialogue Lines</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-val" id="statKeyframes">0</span>
+              <span class="stat-lbl">Keyframes</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-val" id="statTime">0s</span>
+              <span class="stat-lbl">Analysis Time</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Tabbed Panel -->
+      <div class="insights-column">
+        <div class="insights-tabs">
+          <button class="tab-btn active" data-tab="tabInside">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+              <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+            </svg>
+            What's Inside (Gemma 4)
+          </button>
+          <button class="tab-btn" data-tab="tabTranscript">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path>
+              <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+              <line x1="12" y1="19" x2="12" y2="23"></line>
+            </svg>
+            Audio Transcript
+          </button>
+          <button class="tab-btn" data-tab="tabFrames">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+              <circle cx="8.5" cy="8.5" r="1.5"></circle>
+              <polyline points="21 15 16 10 5 21"></polyline>
+            </svg>
+            Visual Frames
+          </button>
+          <button class="tab-btn" data-tab="tabChat">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+            </svg>
+            Ask Gemma AI
+          </button>
+        </div>
+
+        <!-- Tab 1: What is Inside Video -->
+        <div class="tab-pane active" id="tabInside">
+          <div class="pane-header">
+            <div class="pane-title">
+              <h3>Comprehensive Video Intelligence</h3>
+              <p>Generated by local Gemma 4 12B model</p>
+            </div>
+            <button class="btn-secondary btn-sm" id="copySummaryBtn">Copy Report</button>
+          </div>
+          <div class="markdown-report" id="gemmaReportContainer">
+            <p class="placeholder-text">Loading video report...</p>
+          </div>
+        </div>
+
+        <!-- Tab 2: Audio Transcript -->
+        <div class="tab-pane" id="tabTranscript">
+          <div class="pane-header">
+            <div class="search-input-wrapper">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+              <input type="text" id="transcriptSearch" placeholder="Search spoken words...">
+            </div>
+            <div class="download-group">
+              <button class="btn-secondary btn-sm" id="exportSrtBtn">Download .SRT</button>
+              <button class="btn-secondary btn-sm" id="exportTxtBtn">Download .TXT</button>
+            </div>
+          </div>
+          <div class="transcript-list" id="transcriptList"></div>
+        </div>
+
+        <!-- Tab 3: Visual Frames -->
+        <div class="tab-pane" id="tabFrames">
+          <div class="pane-header">
+            <div class="pane-title">
+              <h3>Sampled Keyframe Gallery</h3>
+              <p>Click any frame to jump the video directly to that second</p>
+            </div>
+          </div>
+          <div class="frames-grid" id="framesGrid"></div>
+        </div>
+
+        <!-- Tab 4: Chat with Gemma -->
+        <div class="tab-pane" id="tabChat">
+          <div class="chat-container">
+            <div class="chat-messages" id="chatMessages">
+              <div class="chat-bubble bot">
+                <div class="avatar">G4</div>
+                <div class="bubble-content">
+                  Hello! I have analyzed the video visuals and audio transcript. What would you like to know about this video?
+                </div>
+              </div>
+            </div>
+            <form class="chat-input-bar" id="chatForm">
+              <input type="text" id="chatInput" placeholder="Ask anything about the video content..." autocomplete="off">
+              <button type="submit" class="btn-primary" id="chatSendBtn">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>

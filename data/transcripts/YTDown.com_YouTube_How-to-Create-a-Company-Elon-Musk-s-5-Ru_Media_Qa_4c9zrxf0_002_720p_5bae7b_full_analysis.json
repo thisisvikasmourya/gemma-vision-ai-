@@ -1,0 +1,1391 @@
+{
+  "video_id": "YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b",
+  "metadata": {
+    "filename": "YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b.mp4",
+    "filepath": "/Users/vikasmourya/ai-models/video-trans/uploads/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b.mp4",
+    "duration": 289.645714,
+    "duration_formatted": "04:49.646",
+    "has_audio": true,
+    "width": 1280,
+    "height": 720,
+    "fps": 30.0,
+    "codec_video": "h264",
+    "codec_audio": "aac",
+    "size_bytes": 22130562
+  },
+  "transcription": {
+    "audio_filename": "YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b.wav",
+    "total_segments": 54,
+    "full_text": "I think the first is depending on how well you want to do, particularly if you're starting a company, you need to work super hard. So what does super hard mean? Well, when my brother and I were starting our first company, instead of getting an apartment, we just rented a small office and we slept on the couch. We shared at the YMCA and we had just one computer, so the website was up during the day and I was coding at night, seven days a week all the time. Every card, every waking hour, that's the thing I would say, particularly if you're starting a company. And if you do a simple math to say, \"Okay, if somebody else is working 50 hours and you're working 100,\" you'll get twice as much done in the course of a year as the other company. I think, too, is you've got to make sure that whatever you're doing is a great product or service. It has to be really great. And I go back to what I was saying earlier, where if you're a new company, unless it's like some new industry or new market, if it's an untapped market, then you have more ability to, the standard is lower for your product or service, but if you're entering anything where there's an existing marketplace against large entrenched competitors, then your product or service needs to be much better than theirs. It can't be a little bit better because then you put yourself in the shoes of the consumer and they say, \"Why would you buy it as a consumer? You're always going to buy the trusted brand unless there's a big difference.\" So a lot of times, one entrepreneur will come up with something which is only slightly better. It can't just be slightly better. It's got to be a lot better. The other thing I'd say is that if you're creating a company or if you're joining a company, the most important thing is to attract great people. So either join a group that's amazing that you really respect or if you're building a company, you've got to gather great people. I mean, all the company is, is a group of people that have gathered together to create a product or service. And so depending upon how talented and hardworking that group is and the degree to which they are focused cohesively in a good direction, that will determine the success of the company. So do everything you can to gather great people if you're creating a company. Then, I'd say focus on signal over noise. A lot of companies get confused. They spend money on things that don't actually make the product better. So for example, at Tesla, we've never spent any money on advertising. We've put all of the money into R&D and manufacturing and design to try to make the car as good as possible. And I think that's the way to go. So if we're in a given company, just keep thinking about are these efforts that people are expanding? Are they resulting in a better product or service? And if they're not, stop those efforts. And then I think the final thing I would encourage you to do is, now is the time to take risk. You don't have kids, but as you get older, your obligations increase. And once you have a family, you start taking risk not just for yourself, but for your family as well. It gets much harder to do things that might not work out. So now is the time to do that before you have those obligations. So I would encourage you to take risks and not do something bold. You won't regret it.",
+    "segments": [
+      {
+        "id": 0,
+        "start_sec": 0.0,
+        "end_sec": 12.62,
+        "start_timestamp": "00:00.000",
+        "end_timestamp": "00:12.620",
+        "text": "I think the first is depending on how well you want to do, particularly if you're starting"
+      },
+      {
+        "id": 1,
+        "start_sec": 12.62,
+        "end_sec": 15.02,
+        "start_timestamp": "00:12.620",
+        "end_timestamp": "00:15.020",
+        "text": "a company, you need to work super hard."
+      },
+      {
+        "id": 2,
+        "start_sec": 15.02,
+        "end_sec": 17.3,
+        "start_timestamp": "00:15.020",
+        "end_timestamp": "00:17.300",
+        "text": "So what does super hard mean?"
+      },
+      {
+        "id": 3,
+        "start_sec": 17.3,
+        "end_sec": 22.22,
+        "start_timestamp": "00:17.300",
+        "end_timestamp": "00:22.220",
+        "text": "Well, when my brother and I were starting our first company, instead of getting an apartment,"
+      },
+      {
+        "id": 4,
+        "start_sec": 22.22,
+        "end_sec": 27.06,
+        "start_timestamp": "00:22.220",
+        "end_timestamp": "00:27.060",
+        "text": "we just rented a small office and we slept on the couch."
+      },
+      {
+        "id": 5,
+        "start_sec": 27.06,
+        "end_sec": 35.42,
+        "start_timestamp": "00:27.060",
+        "end_timestamp": "00:35.420",
+        "text": "We shared at the YMCA and we had just one computer, so the website was up during the day and"
+      },
+      {
+        "id": 6,
+        "start_sec": 35.42,
+        "end_sec": 51.76,
+        "start_timestamp": "00:35.420",
+        "end_timestamp": "00:51.760",
+        "text": "I was coding at night, seven days a week all the time."
+      },
+      {
+        "id": 7,
+        "start_sec": 51.76,
+        "end_sec": 57.48,
+        "start_timestamp": "00:51.760",
+        "end_timestamp": "00:57.480",
+        "text": "Every card, every waking hour, that's the thing I would say, particularly if you're starting"
+      },
+      {
+        "id": 8,
+        "start_sec": 57.48,
+        "end_sec": 58.48,
+        "start_timestamp": "00:57.480",
+        "end_timestamp": "00:58.480",
+        "text": "a company."
+      },
+      {
+        "id": 9,
+        "start_sec": 58.48,
+        "end_sec": 62.26,
+        "start_timestamp": "00:58.480",
+        "end_timestamp": "01:02.260",
+        "text": "And if you do a simple math to say, \"Okay, if somebody else is working 50 hours and you're"
+      },
+      {
+        "id": 10,
+        "start_sec": 62.26,
+        "end_sec": 67.44,
+        "start_timestamp": "01:02.260",
+        "end_timestamp": "01:07.440",
+        "text": "working 100,\" you'll get twice as much done in the course of a year as the other company."
+      },
+      {
+        "id": 11,
+        "start_sec": 81.76,
+        "end_sec": 92.68,
+        "start_timestamp": "01:21.760",
+        "end_timestamp": "01:32.680",
+        "text": "I think, too, is you've got to make sure that whatever you're doing is a great product"
+      },
+      {
+        "id": 12,
+        "start_sec": 92.68,
+        "end_sec": 93.68,
+        "start_timestamp": "01:32.680",
+        "end_timestamp": "01:33.680",
+        "text": "or service."
+      },
+      {
+        "id": 13,
+        "start_sec": 93.68,
+        "end_sec": 94.68,
+        "start_timestamp": "01:33.680",
+        "end_timestamp": "01:34.680",
+        "text": "It has to be really great."
+      },
+      {
+        "id": 14,
+        "start_sec": 94.68,
+        "end_sec": 100.06,
+        "start_timestamp": "01:34.680",
+        "end_timestamp": "01:40.060",
+        "text": "And I go back to what I was saying earlier, where if you're a new company, unless it's"
+      },
+      {
+        "id": 15,
+        "start_sec": 100.06,
+        "end_sec": 106.88,
+        "start_timestamp": "01:40.060",
+        "end_timestamp": "01:46.880",
+        "text": "like some new industry or new market, if it's an untapped market, then you have more ability"
+      },
+      {
+        "id": 16,
+        "start_sec": 106.88,
+        "end_sec": 111.12,
+        "start_timestamp": "01:46.880",
+        "end_timestamp": "01:51.120",
+        "text": "to, the standard is lower for your product or service, but if you're entering anything"
+      },
+      {
+        "id": 17,
+        "start_sec": 111.12,
+        "end_sec": 117.96,
+        "start_timestamp": "01:51.120",
+        "end_timestamp": "01:57.960",
+        "text": "where there's an existing marketplace against large entrenched competitors, then your product"
+      },
+      {
+        "id": 18,
+        "start_sec": 117.96,
+        "end_sec": 120.16,
+        "start_timestamp": "01:57.960",
+        "end_timestamp": "02:00.160",
+        "text": "or service needs to be much better than theirs."
+      },
+      {
+        "id": 19,
+        "start_sec": 120.16,
+        "end_sec": 124.48,
+        "start_timestamp": "02:00.160",
+        "end_timestamp": "02:04.480",
+        "text": "It can't be a little bit better because then you put yourself in the shoes of the consumer"
+      },
+      {
+        "id": 20,
+        "start_sec": 124.48,
+        "end_sec": 126.28,
+        "start_timestamp": "02:04.480",
+        "end_timestamp": "02:06.280",
+        "text": "and they say, \"Why would you buy it as a consumer?"
+      },
+      {
+        "id": 21,
+        "start_sec": 126.28,
+        "end_sec": 130.28,
+        "start_timestamp": "02:06.280",
+        "end_timestamp": "02:10.280",
+        "text": "You're always going to buy the trusted brand unless there's a big difference.\""
+      },
+      {
+        "id": 22,
+        "start_sec": 130.28,
+        "end_sec": 136.92,
+        "start_timestamp": "02:10.280",
+        "end_timestamp": "02:16.920",
+        "text": "So a lot of times, one entrepreneur will come up with something which is only slightly better."
+      },
+      {
+        "id": 23,
+        "start_sec": 136.92,
+        "end_sec": 138.4,
+        "start_timestamp": "02:16.920",
+        "end_timestamp": "02:18.400",
+        "text": "It can't just be slightly better."
+      },
+      {
+        "id": 24,
+        "start_sec": 138.4,
+        "end_sec": 150.44,
+        "start_timestamp": "02:18.400",
+        "end_timestamp": "02:30.440",
+        "text": "It's got to be a lot better."
+      },
+      {
+        "id": 25,
+        "start_sec": 150.44,
+        "end_sec": 157.6,
+        "start_timestamp": "02:30.440",
+        "end_timestamp": "02:37.600",
+        "text": "The other thing I'd say is that if you're creating a company or if you're joining a company,"
+      },
+      {
+        "id": 26,
+        "start_sec": 157.6,
+        "end_sec": 161.04,
+        "start_timestamp": "02:37.600",
+        "end_timestamp": "02:41.040",
+        "text": "the most important thing is to attract great people."
+      },
+      {
+        "id": 27,
+        "start_sec": 161.04,
+        "end_sec": 165.72,
+        "start_timestamp": "02:41.040",
+        "end_timestamp": "02:45.720",
+        "text": "So either join a group that's amazing that you really respect or if you're building"
+      },
+      {
+        "id": 28,
+        "start_sec": 165.72,
+        "end_sec": 167.16,
+        "start_timestamp": "02:45.720",
+        "end_timestamp": "02:47.160",
+        "text": "a company, you've got to gather great people."
+      },
+      {
+        "id": 29,
+        "start_sec": 167.16,
+        "end_sec": 170.84,
+        "start_timestamp": "02:47.160",
+        "end_timestamp": "02:50.840",
+        "text": "I mean, all the company is, is a group of people that have gathered together to create"
+      },
+      {
+        "id": 30,
+        "start_sec": 170.84,
+        "end_sec": 172.56,
+        "start_timestamp": "02:50.840",
+        "end_timestamp": "02:52.560",
+        "text": "a product or service."
+      },
+      {
+        "id": 31,
+        "start_sec": 172.56,
+        "end_sec": 176.76,
+        "start_timestamp": "02:52.560",
+        "end_timestamp": "02:56.760",
+        "text": "And so depending upon how talented and hardworking that group is and the degree to which they"
+      },
+      {
+        "id": 32,
+        "start_sec": 176.76,
+        "end_sec": 182.48,
+        "start_timestamp": "02:56.760",
+        "end_timestamp": "03:02.480",
+        "text": "are focused cohesively in a good direction, that will determine the success of the company."
+      },
+      {
+        "id": 33,
+        "start_sec": 182.48,
+        "end_sec": 194.5,
+        "start_timestamp": "03:02.480",
+        "end_timestamp": "03:14.500",
+        "text": "So do everything you can to gather great people if you're creating a company."
+      },
+      {
+        "id": 34,
+        "start_sec": 194.5,
+        "end_sec": 201.76,
+        "start_timestamp": "03:14.500",
+        "end_timestamp": "03:21.760",
+        "text": "Then, I'd say focus on signal over noise."
+      },
+      {
+        "id": 35,
+        "start_sec": 201.76,
+        "end_sec": 204.12,
+        "start_timestamp": "03:21.760",
+        "end_timestamp": "03:24.120",
+        "text": "A lot of companies get confused."
+      },
+      {
+        "id": 36,
+        "start_sec": 204.12,
+        "end_sec": 208.64,
+        "start_timestamp": "03:24.120",
+        "end_timestamp": "03:28.640",
+        "text": "They spend money on things that don't actually make the product better."
+      },
+      {
+        "id": 37,
+        "start_sec": 208.64,
+        "end_sec": 213.52,
+        "start_timestamp": "03:28.640",
+        "end_timestamp": "03:33.520",
+        "text": "So for example, at Tesla, we've never spent any money on advertising."
+      },
+      {
+        "id": 38,
+        "start_sec": 213.52,
+        "end_sec": 219.24,
+        "start_timestamp": "03:33.520",
+        "end_timestamp": "03:39.240",
+        "text": "We've put all of the money into R&D and manufacturing and design to try to make the car as good"
+      },
+      {
+        "id": 39,
+        "start_sec": 219.24,
+        "end_sec": 220.84,
+        "start_timestamp": "03:39.240",
+        "end_timestamp": "03:40.840",
+        "text": "as possible."
+      },
+      {
+        "id": 40,
+        "start_sec": 220.84,
+        "end_sec": 224.24,
+        "start_timestamp": "03:40.840",
+        "end_timestamp": "03:44.240",
+        "text": "And I think that's the way to go."
+      },
+      {
+        "id": 41,
+        "start_sec": 224.24,
+        "end_sec": 229.04,
+        "start_timestamp": "03:44.240",
+        "end_timestamp": "03:49.040",
+        "text": "So if we're in a given company, just keep thinking about are these efforts that people"
+      },
+      {
+        "id": 42,
+        "start_sec": 229.04,
+        "end_sec": 230.04,
+        "start_timestamp": "03:49.040",
+        "end_timestamp": "03:50.040",
+        "text": "are expanding?"
+      },
+      {
+        "id": 43,
+        "start_sec": 230.04,
+        "end_sec": 232.84,
+        "start_timestamp": "03:50.040",
+        "end_timestamp": "03:52.840",
+        "text": "Are they resulting in a better product or service?"
+      },
+      {
+        "id": 44,
+        "start_sec": 232.84,
+        "end_sec": 234.64,
+        "start_timestamp": "03:52.840",
+        "end_timestamp": "03:54.640",
+        "text": "And if they're not, stop those efforts."
+      },
+      {
+        "id": 45,
+        "start_sec": 238.64,
+        "end_sec": 248.92,
+        "start_timestamp": "03:58.640",
+        "end_timestamp": "04:08.920",
+        "text": "And then I think the final thing I would encourage you to do is, now is the time to"
+      },
+      {
+        "id": 46,
+        "start_sec": 248.92,
+        "end_sec": 250.68,
+        "start_timestamp": "04:08.920",
+        "end_timestamp": "04:10.680",
+        "text": "take risk."
+      },
+      {
+        "id": 47,
+        "start_sec": 250.68,
+        "end_sec": 257.84,
+        "start_timestamp": "04:10.680",
+        "end_timestamp": "04:17.840",
+        "text": "You don't have kids, but as you get older, your obligations increase."
+      },
+      {
+        "id": 48,
+        "start_sec": 257.84,
+        "end_sec": 261.96,
+        "start_timestamp": "04:17.840",
+        "end_timestamp": "04:21.960",
+        "text": "And once you have a family, you start taking risk not just for yourself, but for your family"
+      },
+      {
+        "id": 49,
+        "start_sec": 261.96,
+        "end_sec": 262.96,
+        "start_timestamp": "04:21.960",
+        "end_timestamp": "04:22.960",
+        "text": "as well."
+      },
+      {
+        "id": 50,
+        "start_sec": 262.96,
+        "end_sec": 266.72,
+        "start_timestamp": "04:22.960",
+        "end_timestamp": "04:26.720",
+        "text": "It gets much harder to do things that might not work out."
+      },
+      {
+        "id": 51,
+        "start_sec": 266.72,
+        "end_sec": 271.56,
+        "start_timestamp": "04:26.720",
+        "end_timestamp": "04:31.560",
+        "text": "So now is the time to do that before you have those obligations."
+      },
+      {
+        "id": 52,
+        "start_sec": 271.56,
+        "end_sec": 275.76,
+        "start_timestamp": "04:31.560",
+        "end_timestamp": "04:35.760",
+        "text": "So I would encourage you to take risks and not do something bold."
+      },
+      {
+        "id": 53,
+        "start_sec": 275.76,
+        "end_sec": 276.28,
+        "start_timestamp": "04:35.760",
+        "end_timestamp": "04:36.280",
+        "text": "You won't regret it."
+      }
+    ],
+    "files": {
+      "json": "/Users/vikasmourya/ai-models/video-trans/data/transcripts/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b.json",
+      "srt": "/Users/vikasmourya/ai-models/video-trans/data/transcripts/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b.srt",
+      "vtt": "/Users/vikasmourya/ai-models/video-trans/data/transcripts/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b.vtt",
+      "txt": "/Users/vikasmourya/ai-models/video-trans/data/transcripts/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b.txt"
+    }
+  },
+  "keyframes": [
+    {
+      "timestamp": 0.0,
+      "timestamp_formatted": "00:00.000",
+      "description": "Visual frame at 00:00.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0001.jpg",
+      "filename": "frame_0001.jpg"
+    },
+    {
+      "timestamp": 5.0,
+      "timestamp_formatted": "00:05.000",
+      "description": "Visual frame at 00:05.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0002.jpg",
+      "filename": "frame_0002.jpg"
+    },
+    {
+      "timestamp": 10.0,
+      "timestamp_formatted": "00:10.000",
+      "description": "Visual frame at 00:10.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0003.jpg",
+      "filename": "frame_0003.jpg"
+    },
+    {
+      "timestamp": 15.0,
+      "timestamp_formatted": "00:15.000",
+      "description": "Visual frame at 00:15.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0004.jpg",
+      "filename": "frame_0004.jpg"
+    },
+    {
+      "timestamp": 20.0,
+      "timestamp_formatted": "00:20.000",
+      "description": "Visual frame at 00:20.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0005.jpg",
+      "filename": "frame_0005.jpg"
+    },
+    {
+      "timestamp": 25.0,
+      "timestamp_formatted": "00:25.000",
+      "description": "Visual frame at 00:25.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0006.jpg",
+      "filename": "frame_0006.jpg"
+    },
+    {
+      "timestamp": 30.0,
+      "timestamp_formatted": "00:30.000",
+      "description": "Visual frame at 00:30.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0007.jpg",
+      "filename": "frame_0007.jpg"
+    },
+    {
+      "timestamp": 35.0,
+      "timestamp_formatted": "00:35.000",
+      "description": "Visual frame at 00:35.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0008.jpg",
+      "filename": "frame_0008.jpg"
+    },
+    {
+      "timestamp": 40.0,
+      "timestamp_formatted": "00:40.000",
+      "description": "Visual frame at 00:40.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0009.jpg",
+      "filename": "frame_0009.jpg"
+    },
+    {
+      "timestamp": 45.0,
+      "timestamp_formatted": "00:45.000",
+      "description": "Visual frame at 00:45.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0010.jpg",
+      "filename": "frame_0010.jpg"
+    },
+    {
+      "timestamp": 50.0,
+      "timestamp_formatted": "00:50.000",
+      "description": "Visual frame at 00:50.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0011.jpg",
+      "filename": "frame_0011.jpg"
+    },
+    {
+      "timestamp": 55.0,
+      "timestamp_formatted": "00:55.000",
+      "description": "Visual frame at 00:55.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0012.jpg",
+      "filename": "frame_0012.jpg"
+    },
+    {
+      "timestamp": 60.0,
+      "timestamp_formatted": "01:00.000",
+      "description": "Visual frame at 01:00.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0013.jpg",
+      "filename": "frame_0013.jpg"
+    },
+    {
+      "timestamp": 65.0,
+      "timestamp_formatted": "01:05.000",
+      "description": "Visual frame at 01:05.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0014.jpg",
+      "filename": "frame_0014.jpg"
+    },
+    {
+      "timestamp": 70.0,
+      "timestamp_formatted": "01:10.000",
+      "description": "Visual frame at 01:10.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0015.jpg",
+      "filename": "frame_0015.jpg"
+    },
+    {
+      "timestamp": 75.0,
+      "timestamp_formatted": "01:15.000",
+      "description": "Visual frame at 01:15.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0016.jpg",
+      "filename": "frame_0016.jpg"
+    },
+    {
+      "timestamp": 80.0,
+      "timestamp_formatted": "01:20.000",
+      "description": "Visual frame at 01:20.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0017.jpg",
+      "filename": "frame_0017.jpg"
+    },
+    {
+      "timestamp": 85.0,
+      "timestamp_formatted": "01:25.000",
+      "description": "Visual frame at 01:25.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0018.jpg",
+      "filename": "frame_0018.jpg"
+    },
+    {
+      "timestamp": 90.0,
+      "timestamp_formatted": "01:30.000",
+      "description": "Visual frame at 01:30.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0019.jpg",
+      "filename": "frame_0019.jpg"
+    },
+    {
+      "timestamp": 95.0,
+      "timestamp_formatted": "01:35.000",
+      "description": "Visual frame at 01:35.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0020.jpg",
+      "filename": "frame_0020.jpg"
+    },
+    {
+      "timestamp": 100.0,
+      "timestamp_formatted": "01:40.000",
+      "description": "Visual frame at 01:40.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0021.jpg",
+      "filename": "frame_0021.jpg"
+    },
+    {
+      "timestamp": 105.0,
+      "timestamp_formatted": "01:45.000",
+      "description": "Visual frame at 01:45.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0022.jpg",
+      "filename": "frame_0022.jpg"
+    },
+    {
+      "timestamp": 110.0,
+      "timestamp_formatted": "01:50.000",
+      "description": "Visual frame at 01:50.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0023.jpg",
+      "filename": "frame_0023.jpg"
+    },
+    {
+      "timestamp": 115.0,
+      "timestamp_formatted": "01:55.000",
+      "description": "Visual frame at 01:55.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0024.jpg",
+      "filename": "frame_0024.jpg"
+    },
+    {
+      "timestamp": 120.0,
+      "timestamp_formatted": "02:00.000",
+      "description": "Visual frame at 02:00.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0025.jpg",
+      "filename": "frame_0025.jpg"
+    },
+    {
+      "timestamp": 125.0,
+      "timestamp_formatted": "02:05.000",
+      "description": "Visual frame at 02:05.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0026.jpg",
+      "filename": "frame_0026.jpg"
+    },
+    {
+      "timestamp": 130.0,
+      "timestamp_formatted": "02:10.000",
+      "description": "Visual frame at 02:10.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0027.jpg",
+      "filename": "frame_0027.jpg"
+    },
+    {
+      "timestamp": 135.0,
+      "timestamp_formatted": "02:15.000",
+      "description": "Visual frame at 02:15.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0028.jpg",
+      "filename": "frame_0028.jpg"
+    },
+    {
+      "timestamp": 140.0,
+      "timestamp_formatted": "02:20.000",
+      "description": "Visual frame at 02:20.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0029.jpg",
+      "filename": "frame_0029.jpg"
+    },
+    {
+      "timestamp": 145.0,
+      "timestamp_formatted": "02:25.000",
+      "description": "Visual frame at 02:25.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0030.jpg",
+      "filename": "frame_0030.jpg"
+    },
+    {
+      "timestamp": 150.0,
+      "timestamp_formatted": "02:30.000",
+      "description": "Visual frame at 02:30.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0031.jpg",
+      "filename": "frame_0031.jpg"
+    },
+    {
+      "timestamp": 155.0,
+      "timestamp_formatted": "02:35.000",
+      "description": "Visual frame at 02:35.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0032.jpg",
+      "filename": "frame_0032.jpg"
+    },
+    {
+      "timestamp": 160.0,
+      "timestamp_formatted": "02:40.000",
+      "description": "Visual frame at 02:40.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0033.jpg",
+      "filename": "frame_0033.jpg"
+    },
+    {
+      "timestamp": 165.0,
+      "timestamp_formatted": "02:45.000",
+      "description": "Visual frame at 02:45.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0034.jpg",
+      "filename": "frame_0034.jpg"
+    },
+    {
+      "timestamp": 170.0,
+      "timestamp_formatted": "02:50.000",
+      "description": "Visual frame at 02:50.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0035.jpg",
+      "filename": "frame_0035.jpg"
+    },
+    {
+      "timestamp": 175.0,
+      "timestamp_formatted": "02:55.000",
+      "description": "Visual frame at 02:55.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0036.jpg",
+      "filename": "frame_0036.jpg"
+    },
+    {
+      "timestamp": 180.0,
+      "timestamp_formatted": "03:00.000",
+      "description": "Visual frame at 03:00.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0037.jpg",
+      "filename": "frame_0037.jpg"
+    },
+    {
+      "timestamp": 185.0,
+      "timestamp_formatted": "03:05.000",
+      "description": "Visual frame at 03:05.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0038.jpg",
+      "filename": "frame_0038.jpg"
+    },
+    {
+      "timestamp": 190.0,
+      "timestamp_formatted": "03:10.000",
+      "description": "Visual frame at 03:10.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0039.jpg",
+      "filename": "frame_0039.jpg"
+    },
+    {
+      "timestamp": 195.0,
+      "timestamp_formatted": "03:15.000",
+      "description": "Visual frame at 03:15.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0040.jpg",
+      "filename": "frame_0040.jpg"
+    },
+    {
+      "timestamp": 200.0,
+      "timestamp_formatted": "03:20.000",
+      "description": "Visual frame at 03:20.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0041.jpg",
+      "filename": "frame_0041.jpg"
+    },
+    {
+      "timestamp": 205.0,
+      "timestamp_formatted": "03:25.000",
+      "description": "Visual frame at 03:25.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0042.jpg",
+      "filename": "frame_0042.jpg"
+    },
+    {
+      "timestamp": 210.0,
+      "timestamp_formatted": "03:30.000",
+      "description": "Visual frame at 03:30.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0043.jpg",
+      "filename": "frame_0043.jpg"
+    },
+    {
+      "timestamp": 215.0,
+      "timestamp_formatted": "03:35.000",
+      "description": "Visual frame at 03:35.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0044.jpg",
+      "filename": "frame_0044.jpg"
+    },
+    {
+      "timestamp": 220.0,
+      "timestamp_formatted": "03:40.000",
+      "description": "Visual frame at 03:40.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0045.jpg",
+      "filename": "frame_0045.jpg"
+    },
+    {
+      "timestamp": 225.0,
+      "timestamp_formatted": "03:45.000",
+      "description": "Visual frame at 03:45.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0046.jpg",
+      "filename": "frame_0046.jpg"
+    },
+    {
+      "timestamp": 230.0,
+      "timestamp_formatted": "03:50.000",
+      "description": "Visual frame at 03:50.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0047.jpg",
+      "filename": "frame_0047.jpg"
+    },
+    {
+      "timestamp": 235.0,
+      "timestamp_formatted": "03:55.000",
+      "description": "Visual frame at 03:55.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0048.jpg",
+      "filename": "frame_0048.jpg"
+    },
+    {
+      "timestamp": 240.0,
+      "timestamp_formatted": "04:00.000",
+      "description": "Visual frame at 04:00.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0049.jpg",
+      "filename": "frame_0049.jpg"
+    },
+    {
+      "timestamp": 245.0,
+      "timestamp_formatted": "04:05.000",
+      "description": "Visual frame at 04:05.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0050.jpg",
+      "filename": "frame_0050.jpg"
+    },
+    {
+      "timestamp": 250.0,
+      "timestamp_formatted": "04:10.000",
+      "description": "Visual frame at 04:10.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0051.jpg",
+      "filename": "frame_0051.jpg"
+    },
+    {
+      "timestamp": 255.0,
+      "timestamp_formatted": "04:15.000",
+      "description": "Visual frame at 04:15.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0052.jpg",
+      "filename": "frame_0052.jpg"
+    },
+    {
+      "timestamp": 260.0,
+      "timestamp_formatted": "04:20.000",
+      "description": "Visual frame at 04:20.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0053.jpg",
+      "filename": "frame_0053.jpg"
+    },
+    {
+      "timestamp": 265.0,
+      "timestamp_formatted": "04:25.000",
+      "description": "Visual frame at 04:25.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0054.jpg",
+      "filename": "frame_0054.jpg"
+    },
+    {
+      "timestamp": 270.0,
+      "timestamp_formatted": "04:30.000",
+      "description": "Visual frame at 04:30.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0055.jpg",
+      "filename": "frame_0055.jpg"
+    },
+    {
+      "timestamp": 275.0,
+      "timestamp_formatted": "04:35.000",
+      "description": "Visual frame at 04:35.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0056.jpg",
+      "filename": "frame_0056.jpg"
+    },
+    {
+      "timestamp": 280.0,
+      "timestamp_formatted": "04:40.000",
+      "description": "Visual frame at 04:40.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0057.jpg",
+      "filename": "frame_0057.jpg"
+    },
+    {
+      "timestamp": 285.0,
+      "timestamp_formatted": "04:45.000",
+      "description": "Visual frame at 04:45.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0058.jpg",
+      "filename": "frame_0058.jpg"
+    }
+  ],
+  "timeline_blocks": [
+    {
+      "window_index": 1,
+      "start_sec": 0.0,
+      "end_sec": 20.0,
+      "start_timestamp": "00:00.000",
+      "end_timestamp": "00:20.000",
+      "dialogue": "I think the first is depending on how well you want to do, particularly if you're starting a company, you need to work super hard. So what does super hard mean? Well, when my brother and I were starting our first company, instead of getting an apartment,",
+      "visual_summary": "[00:00.000] Visual frame at 00:00.000 | [00:05.000] Visual frame at 00:05.000 | [00:10.000] Visual frame at 00:10.000 | [00:15.000] Visual frame at 00:15.000",
+      "keyframes": [
+        {
+          "timestamp": 0.0,
+          "timestamp_formatted": "00:00.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0001.jpg",
+          "filename": "frame_0001.jpg"
+        },
+        {
+          "timestamp": 5.0,
+          "timestamp_formatted": "00:05.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0002.jpg",
+          "filename": "frame_0002.jpg"
+        },
+        {
+          "timestamp": 10.0,
+          "timestamp_formatted": "00:10.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0003.jpg",
+          "filename": "frame_0003.jpg"
+        },
+        {
+          "timestamp": 15.0,
+          "timestamp_formatted": "00:15.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0004.jpg",
+          "filename": "frame_0004.jpg"
+        }
+      ]
+    },
+    {
+      "window_index": 2,
+      "start_sec": 20.0,
+      "end_sec": 40.0,
+      "start_timestamp": "00:20.000",
+      "end_timestamp": "00:40.000",
+      "dialogue": "Well, when my brother and I were starting our first company, instead of getting an apartment, we just rented a small office and we slept on the couch. We shared at the YMCA and we had just one computer, so the website was up during the day and I was coding at night, seven days a week all the time.",
+      "visual_summary": "[00:20.000] Visual frame at 00:20.000 | [00:25.000] Visual frame at 00:25.000 | [00:30.000] Visual frame at 00:30.000 | [00:35.000] Visual frame at 00:35.000",
+      "keyframes": [
+        {
+          "timestamp": 20.0,
+          "timestamp_formatted": "00:20.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0005.jpg",
+          "filename": "frame_0005.jpg"
+        },
+        {
+          "timestamp": 25.0,
+          "timestamp_formatted": "00:25.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0006.jpg",
+          "filename": "frame_0006.jpg"
+        },
+        {
+          "timestamp": 30.0,
+          "timestamp_formatted": "00:30.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0007.jpg",
+          "filename": "frame_0007.jpg"
+        },
+        {
+          "timestamp": 35.0,
+          "timestamp_formatted": "00:35.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0008.jpg",
+          "filename": "frame_0008.jpg"
+        }
+      ]
+    },
+    {
+      "window_index": 3,
+      "start_sec": 40.0,
+      "end_sec": 60.0,
+      "start_timestamp": "00:40.000",
+      "end_timestamp": "01:00.000",
+      "dialogue": "I was coding at night, seven days a week all the time. Every card, every waking hour, that's the thing I would say, particularly if you're starting a company. And if you do a simple math to say, \"Okay, if somebody else is working 50 hours and you're",
+      "visual_summary": "[00:40.000] Visual frame at 00:40.000 | [00:45.000] Visual frame at 00:45.000 | [00:50.000] Visual frame at 00:50.000 | [00:55.000] Visual frame at 00:55.000",
+      "keyframes": [
+        {
+          "timestamp": 40.0,
+          "timestamp_formatted": "00:40.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0009.jpg",
+          "filename": "frame_0009.jpg"
+        },
+        {
+          "timestamp": 45.0,
+          "timestamp_formatted": "00:45.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0010.jpg",
+          "filename": "frame_0010.jpg"
+        },
+        {
+          "timestamp": 50.0,
+          "timestamp_formatted": "00:50.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0011.jpg",
+          "filename": "frame_0011.jpg"
+        },
+        {
+          "timestamp": 55.0,
+          "timestamp_formatted": "00:55.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0012.jpg",
+          "filename": "frame_0012.jpg"
+        }
+      ]
+    },
+    {
+      "window_index": 4,
+      "start_sec": 60.0,
+      "end_sec": 80.0,
+      "start_timestamp": "01:00.000",
+      "end_timestamp": "01:20.000",
+      "dialogue": "And if you do a simple math to say, \"Okay, if somebody else is working 50 hours and you're working 100,\" you'll get twice as much done in the course of a year as the other company.",
+      "visual_summary": "[01:00.000] Visual frame at 01:00.000 | [01:05.000] Visual frame at 01:05.000 | [01:10.000] Visual frame at 01:10.000 | [01:15.000] Visual frame at 01:15.000",
+      "keyframes": [
+        {
+          "timestamp": 60.0,
+          "timestamp_formatted": "01:00.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0013.jpg",
+          "filename": "frame_0013.jpg"
+        },
+        {
+          "timestamp": 65.0,
+          "timestamp_formatted": "01:05.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0014.jpg",
+          "filename": "frame_0014.jpg"
+        },
+        {
+          "timestamp": 70.0,
+          "timestamp_formatted": "01:10.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0015.jpg",
+          "filename": "frame_0015.jpg"
+        },
+        {
+          "timestamp": 75.0,
+          "timestamp_formatted": "01:15.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0016.jpg",
+          "filename": "frame_0016.jpg"
+        }
+      ]
+    },
+    {
+      "window_index": 5,
+      "start_sec": 80.0,
+      "end_sec": 100.0,
+      "start_timestamp": "01:20.000",
+      "end_timestamp": "01:40.000",
+      "dialogue": "I think, too, is you've got to make sure that whatever you're doing is a great product or service. It has to be really great. And I go back to what I was saying earlier, where if you're a new company, unless it's",
+      "visual_summary": "[01:20.000] Visual frame at 01:20.000 | [01:25.000] Visual frame at 01:25.000 | [01:30.000] Visual frame at 01:30.000 | [01:35.000] Visual frame at 01:35.000",
+      "keyframes": [
+        {
+          "timestamp": 80.0,
+          "timestamp_formatted": "01:20.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0017.jpg",
+          "filename": "frame_0017.jpg"
+        },
+        {
+          "timestamp": 85.0,
+          "timestamp_formatted": "01:25.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0018.jpg",
+          "filename": "frame_0018.jpg"
+        },
+        {
+          "timestamp": 90.0,
+          "timestamp_formatted": "01:30.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0019.jpg",
+          "filename": "frame_0019.jpg"
+        },
+        {
+          "timestamp": 95.0,
+          "timestamp_formatted": "01:35.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0020.jpg",
+          "filename": "frame_0020.jpg"
+        }
+      ]
+    },
+    {
+      "window_index": 6,
+      "start_sec": 100.0,
+      "end_sec": 120.0,
+      "start_timestamp": "01:40.000",
+      "end_timestamp": "02:00.000",
+      "dialogue": "And I go back to what I was saying earlier, where if you're a new company, unless it's like some new industry or new market, if it's an untapped market, then you have more ability to, the standard is lower for your product or service, but if you're entering anything where there's an existing marketplace against large entrenched competitors, then your product or service needs to be much better than theirs.",
+      "visual_summary": "[01:40.000] Visual frame at 01:40.000 | [01:45.000] Visual frame at 01:45.000 | [01:50.000] Visual frame at 01:50.000 | [01:55.000] Visual frame at 01:55.000",
+      "keyframes": [
+        {
+          "timestamp": 100.0,
+          "timestamp_formatted": "01:40.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0021.jpg",
+          "filename": "frame_0021.jpg"
+        },
+        {
+          "timestamp": 105.0,
+          "timestamp_formatted": "01:45.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0022.jpg",
+          "filename": "frame_0022.jpg"
+        },
+        {
+          "timestamp": 110.0,
+          "timestamp_formatted": "01:50.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0023.jpg",
+          "filename": "frame_0023.jpg"
+        },
+        {
+          "timestamp": 115.0,
+          "timestamp_formatted": "01:55.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0024.jpg",
+          "filename": "frame_0024.jpg"
+        }
+      ]
+    },
+    {
+      "window_index": 7,
+      "start_sec": 120.0,
+      "end_sec": 140.0,
+      "start_timestamp": "02:00.000",
+      "end_timestamp": "02:20.000",
+      "dialogue": "or service needs to be much better than theirs. It can't be a little bit better because then you put yourself in the shoes of the consumer and they say, \"Why would you buy it as a consumer? You're always going to buy the trusted brand unless there's a big difference.\" So a lot of times, one entrepreneur will come up with something which is only slightly better. It can't just be slightly better. It's got to be a lot better.",
+      "visual_summary": "[02:00.000] Visual frame at 02:00.000 | [02:05.000] Visual frame at 02:05.000 | [02:10.000] Visual frame at 02:10.000 | [02:15.000] Visual frame at 02:15.000",
+      "keyframes": [
+        {
+          "timestamp": 120.0,
+          "timestamp_formatted": "02:00.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0025.jpg",
+          "filename": "frame_0025.jpg"
+        },
+        {
+          "timestamp": 125.0,
+          "timestamp_formatted": "02:05.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0026.jpg",
+          "filename": "frame_0026.jpg"
+        },
+        {
+          "timestamp": 130.0,
+          "timestamp_formatted": "02:10.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0027.jpg",
+          "filename": "frame_0027.jpg"
+        },
+        {
+          "timestamp": 135.0,
+          "timestamp_formatted": "02:15.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0028.jpg",
+          "filename": "frame_0028.jpg"
+        }
+      ]
+    },
+    {
+      "window_index": 8,
+      "start_sec": 140.0,
+      "end_sec": 160.0,
+      "start_timestamp": "02:20.000",
+      "end_timestamp": "02:40.000",
+      "dialogue": "It's got to be a lot better. The other thing I'd say is that if you're creating a company or if you're joining a company, the most important thing is to attract great people.",
+      "visual_summary": "[02:20.000] Visual frame at 02:20.000 | [02:25.000] Visual frame at 02:25.000 | [02:30.000] Visual frame at 02:30.000 | [02:35.000] Visual frame at 02:35.000",
+      "keyframes": [
+        {
+          "timestamp": 140.0,
+          "timestamp_formatted": "02:20.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0029.jpg",
+          "filename": "frame_0029.jpg"
+        },
+        {
+          "timestamp": 145.0,
+          "timestamp_formatted": "02:25.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0030.jpg",
+          "filename": "frame_0030.jpg"
+        },
+        {
+          "timestamp": 150.0,
+          "timestamp_formatted": "02:30.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0031.jpg",
+          "filename": "frame_0031.jpg"
+        },
+        {
+          "timestamp": 155.0,
+          "timestamp_formatted": "02:35.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0032.jpg",
+          "filename": "frame_0032.jpg"
+        }
+      ]
+    },
+    {
+      "window_index": 9,
+      "start_sec": 160.0,
+      "end_sec": 180.0,
+      "start_timestamp": "02:40.000",
+      "end_timestamp": "03:00.000",
+      "dialogue": "the most important thing is to attract great people. So either join a group that's amazing that you really respect or if you're building a company, you've got to gather great people. I mean, all the company is, is a group of people that have gathered together to create a product or service. And so depending upon how talented and hardworking that group is and the degree to which they are focused cohesively in a good direction, that will determine the success of the company.",
+      "visual_summary": "[02:40.000] Visual frame at 02:40.000 | [02:45.000] Visual frame at 02:45.000 | [02:50.000] Visual frame at 02:50.000 | [02:55.000] Visual frame at 02:55.000",
+      "keyframes": [
+        {
+          "timestamp": 160.0,
+          "timestamp_formatted": "02:40.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0033.jpg",
+          "filename": "frame_0033.jpg"
+        },
+        {
+          "timestamp": 165.0,
+          "timestamp_formatted": "02:45.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0034.jpg",
+          "filename": "frame_0034.jpg"
+        },
+        {
+          "timestamp": 170.0,
+          "timestamp_formatted": "02:50.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0035.jpg",
+          "filename": "frame_0035.jpg"
+        },
+        {
+          "timestamp": 175.0,
+          "timestamp_formatted": "02:55.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0036.jpg",
+          "filename": "frame_0036.jpg"
+        }
+      ]
+    },
+    {
+      "window_index": 10,
+      "start_sec": 180.0,
+      "end_sec": 200.0,
+      "start_timestamp": "03:00.000",
+      "end_timestamp": "03:20.000",
+      "dialogue": "are focused cohesively in a good direction, that will determine the success of the company. So do everything you can to gather great people if you're creating a company. Then, I'd say focus on signal over noise.",
+      "visual_summary": "[03:00.000] Visual frame at 03:00.000 | [03:05.000] Visual frame at 03:05.000 | [03:10.000] Visual frame at 03:10.000 | [03:15.000] Visual frame at 03:15.000",
+      "keyframes": [
+        {
+          "timestamp": 180.0,
+          "timestamp_formatted": "03:00.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0037.jpg",
+          "filename": "frame_0037.jpg"
+        },
+        {
+          "timestamp": 185.0,
+          "timestamp_formatted": "03:05.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0038.jpg",
+          "filename": "frame_0038.jpg"
+        },
+        {
+          "timestamp": 190.0,
+          "timestamp_formatted": "03:10.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0039.jpg",
+          "filename": "frame_0039.jpg"
+        },
+        {
+          "timestamp": 195.0,
+          "timestamp_formatted": "03:15.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0040.jpg",
+          "filename": "frame_0040.jpg"
+        }
+      ]
+    },
+    {
+      "window_index": 11,
+      "start_sec": 200.0,
+      "end_sec": 220.0,
+      "start_timestamp": "03:20.000",
+      "end_timestamp": "03:40.000",
+      "dialogue": "Then, I'd say focus on signal over noise. A lot of companies get confused. They spend money on things that don't actually make the product better. So for example, at Tesla, we've never spent any money on advertising. We've put all of the money into R&D and manufacturing and design to try to make the car as good as possible.",
+      "visual_summary": "[03:20.000] Visual frame at 03:20.000 | [03:25.000] Visual frame at 03:25.000 | [03:30.000] Visual frame at 03:30.000 | [03:35.000] Visual frame at 03:35.000",
+      "keyframes": [
+        {
+          "timestamp": 200.0,
+          "timestamp_formatted": "03:20.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0041.jpg",
+          "filename": "frame_0041.jpg"
+        },
+        {
+          "timestamp": 205.0,
+          "timestamp_formatted": "03:25.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0042.jpg",
+          "filename": "frame_0042.jpg"
+        },
+        {
+          "timestamp": 210.0,
+          "timestamp_formatted": "03:30.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0043.jpg",
+          "filename": "frame_0043.jpg"
+        },
+        {
+          "timestamp": 215.0,
+          "timestamp_formatted": "03:35.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0044.jpg",
+          "filename": "frame_0044.jpg"
+        }
+      ]
+    },
+    {
+      "window_index": 12,
+      "start_sec": 220.0,
+      "end_sec": 240.0,
+      "start_timestamp": "03:40.000",
+      "end_timestamp": "04:00.000",
+      "dialogue": "as possible. And I think that's the way to go. So if we're in a given company, just keep thinking about are these efforts that people are expanding? Are they resulting in a better product or service? And if they're not, stop those efforts. And then I think the final thing I would encourage you to do is, now is the time to",
+      "visual_summary": "[03:40.000] Visual frame at 03:40.000 | [03:45.000] Visual frame at 03:45.000 | [03:50.000] Visual frame at 03:50.000 | [03:55.000] Visual frame at 03:55.000",
+      "keyframes": [
+        {
+          "timestamp": 220.0,
+          "timestamp_formatted": "03:40.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0045.jpg",
+          "filename": "frame_0045.jpg"
+        },
+        {
+          "timestamp": 225.0,
+          "timestamp_formatted": "03:45.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0046.jpg",
+          "filename": "frame_0046.jpg"
+        },
+        {
+          "timestamp": 230.0,
+          "timestamp_formatted": "03:50.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0047.jpg",
+          "filename": "frame_0047.jpg"
+        },
+        {
+          "timestamp": 235.0,
+          "timestamp_formatted": "03:55.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0048.jpg",
+          "filename": "frame_0048.jpg"
+        }
+      ]
+    },
+    {
+      "window_index": 13,
+      "start_sec": 240.0,
+      "end_sec": 260.0,
+      "start_timestamp": "04:00.000",
+      "end_timestamp": "04:20.000",
+      "dialogue": "And then I think the final thing I would encourage you to do is, now is the time to take risk. You don't have kids, but as you get older, your obligations increase. And once you have a family, you start taking risk not just for yourself, but for your family",
+      "visual_summary": "[04:00.000] Visual frame at 04:00.000 | [04:05.000] Visual frame at 04:05.000 | [04:10.000] Visual frame at 04:10.000 | [04:15.000] Visual frame at 04:15.000",
+      "keyframes": [
+        {
+          "timestamp": 240.0,
+          "timestamp_formatted": "04:00.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0049.jpg",
+          "filename": "frame_0049.jpg"
+        },
+        {
+          "timestamp": 245.0,
+          "timestamp_formatted": "04:05.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0050.jpg",
+          "filename": "frame_0050.jpg"
+        },
+        {
+          "timestamp": 250.0,
+          "timestamp_formatted": "04:10.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0051.jpg",
+          "filename": "frame_0051.jpg"
+        },
+        {
+          "timestamp": 255.0,
+          "timestamp_formatted": "04:15.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0052.jpg",
+          "filename": "frame_0052.jpg"
+        }
+      ]
+    },
+    {
+      "window_index": 14,
+      "start_sec": 260.0,
+      "end_sec": 280.0,
+      "start_timestamp": "04:20.000",
+      "end_timestamp": "04:40.000",
+      "dialogue": "And once you have a family, you start taking risk not just for yourself, but for your family as well. It gets much harder to do things that might not work out. So now is the time to do that before you have those obligations. So I would encourage you to take risks and not do something bold. You won't regret it.",
+      "visual_summary": "[04:20.000] Visual frame at 04:20.000 | [04:25.000] Visual frame at 04:25.000 | [04:30.000] Visual frame at 04:30.000 | [04:35.000] Visual frame at 04:35.000",
+      "keyframes": [
+        {
+          "timestamp": 260.0,
+          "timestamp_formatted": "04:20.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0053.jpg",
+          "filename": "frame_0053.jpg"
+        },
+        {
+          "timestamp": 265.0,
+          "timestamp_formatted": "04:25.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0054.jpg",
+          "filename": "frame_0054.jpg"
+        },
+        {
+          "timestamp": 270.0,
+          "timestamp_formatted": "04:30.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0055.jpg",
+          "filename": "frame_0055.jpg"
+        },
+        {
+          "timestamp": 275.0,
+          "timestamp_formatted": "04:35.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0056.jpg",
+          "filename": "frame_0056.jpg"
+        }
+      ]
+    },
+    {
+      "window_index": 15,
+      "start_sec": 280.0,
+      "end_sec": 300.0,
+      "start_timestamp": "04:40.000",
+      "end_timestamp": "05:00.000",
+      "dialogue": "",
+      "visual_summary": "[04:40.000] Visual frame at 04:40.000 | [04:45.000] Visual frame at 04:45.000",
+      "keyframes": [
+        {
+          "timestamp": 280.0,
+          "timestamp_formatted": "04:40.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0057.jpg",
+          "filename": "frame_0057.jpg"
+        },
+        {
+          "timestamp": 285.0,
+          "timestamp_formatted": "04:45.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b/frame_0058.jpg",
+          "filename": "frame_0058.jpg"
+        }
+      ]
+    }
+  ],
+  "context_prompt": "VIDEO METADATA:\n- Title / File: YTDown.com_YouTube_How-to-Create-a-Company-Elon-Musk-s-5-Ru_Media_Qa_4c9zrxf0_002_720p_5bae7b.mp4\n- Total Duration: 04:49.646 (289.6s)\n- Resolution: 1280x720 @ 30.0 FPS\n\nSYNCHRONIZED AUDIO & VISUAL TIMELINE:\n[00:00.000 -> 00:20.000]\n  \u2022 Visual: [00:00.000] Visual frame at 00:00.000 | [00:05.000] Visual frame at 00:05.000 | [00:10.000] Visual frame at 00:10.000 | [00:15.000] Visual frame at 00:15.000\n  \u2022 Spoken Dialogue: I think the first is depending on how well you want to do, particularly if you're starting a company, you need to work super hard. So what does super hard mean? Well, when my brother and I were starting our first company, instead of getting an apartment,\n[00:20.000 -> 00:40.000]\n  \u2022 Visual: [00:20.000] Visual frame at 00:20.000 | [00:25.000] Visual frame at 00:25.000 | [00:30.000] Visual frame at 00:30.000 | [00:35.000] Visual frame at 00:35.000\n  \u2022 Spoken Dialogue: Well, when my brother and I were starting our first company, instead of getting an apartment, we just rented a small office and we slept on the couch. We shared at the YMCA and we had just one computer, so the website was up during the day and I was coding at night, seven days a week all the time.\n[00:40.000 -> 01:00.000]\n  \u2022 Visual: [00:40.000] Visual frame at 00:40.000 | [00:45.000] Visual frame at 00:45.000 | [00:50.000] Visual frame at 00:50.000 | [00:55.000] Visual frame at 00:55.000\n  \u2022 Spoken Dialogue: I was coding at night, seven days a week all the time. Every card, every waking hour, that's the thing I would say, particularly if you're starting a company. And if you do a simple math to say, \"Okay, if somebody else is working 50 hours and you're\n[01:00.000 -> 01:20.000]\n  \u2022 Visual: [01:00.000] Visual frame at 01:00.000 | [01:05.000] Visual frame at 01:05.000 | [01:10.000] Visual frame at 01:10.000 | [01:15.000] Visual frame at 01:15.000\n  \u2022 Spoken Dialogue: And if you do a simple math to say, \"Okay, if somebody else is working 50 hours and you're working 100,\" you'll get twice as much done in the course of a year as the other company.\n[01:20.000 -> 01:40.000]\n  \u2022 Visual: [01:20.000] Visual frame at 01:20.000 | [01:25.000] Visual frame at 01:25.000 | [01:30.000] Visual frame at 01:30.000 | [01:35.000] Visual frame at 01:35.000\n  \u2022 Spoken Dialogue: I think, too, is you've got to make sure that whatever you're doing is a great product or service. It has to be really great. And I go back to what I was saying earlier, where if you're a new company, unless it's\n[01:40.000 -> 02:00.000]\n  \u2022 Visual: [01:40.000] Visual frame at 01:40.000 | [01:45.000] Visual frame at 01:45.000 | [01:50.000] Visual frame at 01:50.000 | [01:55.000] Visual frame at 01:55.000\n  \u2022 Spoken Dialogue: And I go back to what I was saying earlier, where if you're a new company, unless it's like some new industry or new market, if it's an untapped market, then you have more ability to, the standard is lower for your product or service, but if you're entering anything where there's an existing marketplace against large entrenched competitors, then your product or service needs to be much better than theirs.\n[02:00.000 -> 02:20.000]\n  \u2022 Visual: [02:00.000] Visual frame at 02:00.000 | [02:05.000] Visual frame at 02:05.000 | [02:10.000] Visual frame at 02:10.000 | [02:15.000] Visual frame at 02:15.000\n  \u2022 Spoken Dialogue: or service needs to be much better than theirs. It can't be a little bit better because then you put yourself in the shoes of the consumer and they say, \"Why would you buy it as a consumer? You're always going to buy the trusted brand unless there's a big difference.\" So a lot of times, one entrepreneur will come up with something which is only slightly better. It can't just be slightly better. It's got to be a lot better.\n[02:20.000 -> 02:40.000]\n  \u2022 Visual: [02:20.000] Visual frame at 02:20.000 | [02:25.000] Visual frame at 02:25.000 | [02:30.000] Visual frame at 02:30.000 | [02:35.000] Visual frame at 02:35.000\n  \u2022 Spoken Dialogue: It's got to be a lot better. The other thing I'd say is that if you're creating a company or if you're joining a company, the most important thing is to attract great people.\n[02:40.000 -> 03:00.000]\n  \u2022 Visual: [02:40.000] Visual frame at 02:40.000 | [02:45.000] Visual frame at 02:45.000 | [02:50.000] Visual frame at 02:50.000 | [02:55.000] Visual frame at 02:55.000\n  \u2022 Spoken Dialogue: the most important thing is to attract great people. So either join a group that's amazing that you really respect or if you're building a company, you've got to gather great people. I mean, all the company is, is a group of people that have gathered together to create a product or service. And so depending upon how talented and hardworking that group is and the degree to which they are focused cohesively in a good direction, that will determine the success of the company.\n[03:00.000 -> 03:20.000]\n  \u2022 Visual: [03:00.000] Visual frame at 03:00.000 | [03:05.000] Visual frame at 03:05.000 | [03:10.000] Visual frame at 03:10.000 | [03:15.000] Visual frame at 03:15.000\n  \u2022 Spoken Dialogue: are focused cohesively in a good direction, that will determine the success of the company. So do everything you can to gather great people if you're creating a company. Then, I'd say focus on signal over noise.\n[03:20.000 -> 03:40.000]\n  \u2022 Visual: [03:20.000] Visual frame at 03:20.000 | [03:25.000] Visual frame at 03:25.000 | [03:30.000] Visual frame at 03:30.000 | [03:35.000] Visual frame at 03:35.000\n  \u2022 Spoken Dialogue: Then, I'd say focus on signal over noise. A lot of companies get confused. They spend money on things that don't actually make the product better. So for example, at Tesla, we've never spent any money on advertising. We've put all of the money into R&D and manufacturing and design to try to make the car as good as possible.\n[03:40.000 -> 04:00.000]\n  \u2022 Visual: [03:40.000] Visual frame at 03:40.000 | [03:45.000] Visual frame at 03:45.000 | [03:50.000] Visual frame at 03:50.000 | [03:55.000] Visual frame at 03:55.000\n  \u2022 Spoken Dialogue: as possible. And I think that's the way to go. So if we're in a given company, just keep thinking about are these efforts that people are expanding? Are they resulting in a better product or service? And if they're not, stop those efforts. And then I think the final thing I would encourage you to do is, now is the time to\n[04:00.000 -> 04:20.000]\n  \u2022 Visual: [04:00.000] Visual frame at 04:00.000 | [04:05.000] Visual frame at 04:05.000 | [04:10.000] Visual frame at 04:10.000 | [04:15.000] Visual frame at 04:15.000\n  \u2022 Spoken Dialogue: And then I think the final thing I would encourage you to do is, now is the time to take risk. You don't have kids, but as you get older, your obligations increase. And once you have a family, you start taking risk not just for yourself, but for your family\n[04:20.000 -> 04:40.000]\n  \u2022 Visual: [04:20.000] Visual frame at 04:20.000 | [04:25.000] Visual frame at 04:25.000 | [04:30.000] Visual frame at 04:30.000 | [04:35.000] Visual frame at 04:35.000\n  \u2022 Spoken Dialogue: And once you have a family, you start taking risk not just for yourself, but for your family as well. It gets much harder to do things that might not work out. So now is the time to do that before you have those obligations. So I would encourage you to take risks and not do something bold. You won't regret it.\n[04:40.000 -> 05:00.000]\n  \u2022 Visual: [04:40.000] Visual frame at 04:40.000 | [04:45.000] Visual frame at 04:45.000\n  \u2022 Spoken Dialogue: [No speech]\n\nCOMPLETE AUDIO TRANSCRIPTION EXCERPT:\nI think the first is depending on how well you want to do, particularly if you're starting a company, you need to work super hard. So what does super hard mean? Well, when my brother and I were starting our first company, instead of getting an apartment, we just rented a small office and we slept on the couch. We shared at the YMCA and we had just one computer, so the website was up during the day and I was coding at night, seven days a week all the time. Every card, every waking hour, that's the thing I would say, particularly if you're starting a company. And if you do a simple math to say, \"Okay, if somebody else is working 50 hours and you're working 100,\" you'll get twice as much done in the course of a year as the other company. I think, too, is you've got to make sure that whatever you're doing is a great product or service. It has to be really great. And I go back to what I was saying earlier, where if you're a new company, unless it's like some new industry or new market, if it's an untapped market, then you have more ability to, the standard is lower for your product or service, but if you're entering anything where there's an existing marketplace against large entrenched competitors, then your product or service needs to be much better than theirs. It can't be a little bit better because then you put yourself in the shoes of the consumer and they say, \"Why would you buy it as a consumer? You're always going to buy the trusted brand unless there's a big difference.\" So a lot of times, one entrepreneur will come up with something which is only slightly better. It can't just be slightly better. It's got to be a lot better. The other thing I'd say is that if you're creating a company or if you're joining a company, the most important thing is to attract great people. So either join a group that's amazing that you really respect or if you're building a company, you've got to gather great people. I mean, all the company is, is a group of people that have gathered together to create a product or service. And so depending upon how talented and hardworking that group is and the degree to which they are focused cohesively in a good direction, that will determine the success of the company. So do everything you can to gather great people if you're creating a company. Then, I'd say focus on signal over noise. A lot of companies get confused. They spend money on things that don't actually make the product better. So for example, at Tesla, we've never spent any money on advertising. We've put all of the money into R&D and manufacturing and design to try to make the car as good as possible. And I think that's the way to go. So if we're in a given company, just keep thinking about are these efforts that people are expanding? Are they resulting in a better product or service? And if they're not, stop those efforts. And then I think the final thing I would encourage you to do is, now is the time to take risk. You don't have kids, but as you get older, your obligations increase. And once you have a family, you start taking risk not just for yourself, but for your family as well. It gets much harder to do things that might not work out. So now is the time to do that before you have those obligations. So I would encourage you to take risks and not do something bold. You won't regret it.",
+  "gemma_analysis": {
+    "status": "success",
+    "model": "gemma4:12b-mlx",
+    "report_markdown": "### 1. \ud83d\udccc Executive Summary\nThis video features Elon Musk providing high-level entrepreneurial advice on how to successfully start and scale a company. The content serves as a strategic guide for aspiring founders, focusing on the fundamental pillars of success: extreme work ethic, product differentiation, team composition, and operational focus.\n\nThe video is structured as a reflective Q&A or interview segment where Musk shares personal anecdotes\u2014specifically from his early days of starting his first company\u2014to illustrate the intensity required to compete in a crowded marketplace. The core message emphasizes that success is not just about having a good idea, but about outworking the competition, building a superior product that disrupts established brands, and assembling a cohesive team of high-performers.\n\n### 2. \ud83c\udfac Scene-by-Scene Timeline Breakdown\n\n**[00:00 - 01:20] The Importance of Extreme Work Ethic**\n*   **What is happening:** Musk introduces the concept of \"working super hard.\" He recounts the early days of his first company, describing a grueling schedule where he and his brother lived in a small office, slept on a couch, and shared a single computer. He explains the \"simple math\" of success: if you work 100 hours while a competitor works 50, you will produce twice as much in a year.\n\n**[01:20 - 02:40] Product Superiority and Market Entry**\n*   **What is happening:** The discussion shifts to product-market fit. Musk explains that in an untapped market, the bar for entry is lower, but in an established market with \"entrenched competitors,\" a product must be significantly better\u2014not just slightly better. He argues that consumers will default to trusted brands unless there is a \"big difference\" that justifies the switch.\n\n**[02:40 - 03:20] The Power of Team Building**\n*   **What is happening:** Musk identifies the \"most important thing\" as attracting and gathering great people. He defines a company as simply a group of people gathered to create a product. He emphasizes that the success of the company is directly tied to the talent, hard work, and cohesive focus of that specific group.\n\n**[03:20 - 04:00] Signal Over Noise (The Tesla Model)**\n*   **What is happening:** Musk introduces the concept of \"signal over noise.\" He uses Tesla as a primary example, noting that the company spends zero money on traditional advertising. Instead, they focus entirely on R&D, manufacturing, and design. He advises founders to constantly audit their efforts: if an activity doesn't result in a better product, it should be stopped.\n\n**[04:00 - 04:40] The Window of Opportunity for Risk**\n*   **What is happening:** In the final segment, Musk offers a personal piece of advice regarding timing. He encourages viewers to take bold risks now, while they are young and have fewer obligations. He notes that as people get older and start families, the stakes of failure become higher, making it harder to take the types of risks necessary to build something great.\n\n### 3. \ud83d\udd0d Key Visual Elements & On-Screen Content\n*   **Speaker:** Elon Musk (implied by the context of the dialogue and the \"Tesla\" references).\n*   **Setting:** A professional interview or media Q&A environment.\n*   **Visual Style:** The video focuses on the speaker's delivery, with visual frames captured at 5-second intervals to capture his expressions and gestures during the explanation of complex business concepts.\n\n### 4. \ud83c\udf99\ufe0f Key Audio Topics & Spoken Highlights\n*   **The \"100 vs. 50\" Rule:** The mathematical advantage of doubling the work hours of a competitor.\n*   **The \"Trusted Brand\" Barrier:** The psychological difficulty of convincing a consumer to switch from a known brand to a new one unless the difference is massive.\n*   **Signal vs. Noise:** A strategic framework for prioritizing R&D and product improvement over \"noisy\" activities like advertising.\n*   **The \"Family\" Factor:** A poignant note on how personal life stages (having children/family) affect one's ability to take high-stakes entrepreneurial risks.\n\n### 5. \ud83d\udca1 Key Takeaways & Summary Points\n*   **Outwork the Competition:** Success is often a matter of sheer output. If you can work twice as hard as the competition, you can achieve twice the results in the same timeframe.\n*   **Be Significantly Better:** \"Slightly better\" is a recipe for failure in an established market. You must offer a transformative difference to break a consumer's habit of using a trusted brand.\n*   **People are the Company:** A company is not a building or a logo; it is a group of people. Your success is capped by the talent and cohesion of the team you gather.\n*   **Prioritize \"Signal\":** Avoid the trap of spending resources on things that don't improve the core product. Focus on R&D and manufacturing (the \"signal\") rather than vanity metrics or advertising (the \"noise\").\n*   **Act While the Stakes are Lower:** Take your biggest, boldest risks now. The \"window\" for high-risk, high-reward ventures is often largest before significant life obligations (like family) increase the cost of failure."
+  },
+  "elapsed_seconds": 136.45
+}

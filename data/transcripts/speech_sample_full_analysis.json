@@ -1,0 +1,85 @@
+{
+  "video_id": "speech_sample",
+  "metadata": {
+    "filename": "speech_sample.mp4",
+    "filepath": "data/videos/speech_sample.mp4",
+    "duration": 11.0,
+    "duration_formatted": "00:11.000",
+    "has_audio": true,
+    "width": 1280,
+    "height": 720,
+    "fps": 30.0,
+    "codec_video": "h264",
+    "codec_audio": "aac",
+    "size_bytes": 232919
+  },
+  "transcription": {
+    "audio_filename": "speech_sample.wav",
+    "total_segments": 1,
+    "full_text": "And so my fellow Americans, ask not what your country can do for you, ask what you can do for your country.",
+    "segments": [
+      {
+        "id": 0,
+        "start_sec": 0.0,
+        "end_sec": 11.0,
+        "start_timestamp": "00:00.000",
+        "end_timestamp": "00:11.000",
+        "text": "And so my fellow Americans, ask not what your country can do for you, ask what you can do for your country."
+      }
+    ],
+    "files": {
+      "json": "/Users/vikasmourya/ai-models/video-trans/data/transcripts/speech_sample.json",
+      "srt": "/Users/vikasmourya/ai-models/video-trans/data/transcripts/speech_sample.srt",
+      "vtt": "/Users/vikasmourya/ai-models/video-trans/data/transcripts/speech_sample.vtt",
+      "txt": "/Users/vikasmourya/ai-models/video-trans/data/transcripts/speech_sample.txt"
+    }
+  },
+  "keyframes": [
+    {
+      "timestamp": 0.0,
+      "timestamp_formatted": "00:00.000",
+      "description": "Visual frame at 00:00.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/speech_sample/frame_0001.jpg",
+      "filename": "frame_0001.jpg"
+    },
+    {
+      "timestamp": 5.0,
+      "timestamp_formatted": "00:05.000",
+      "description": "Visual frame at 00:05.000",
+      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/speech_sample/frame_0002.jpg",
+      "filename": "frame_0002.jpg"
+    }
+  ],
+  "timeline_blocks": [
+    {
+      "window_index": 1,
+      "start_sec": 0.0,
+      "end_sec": 20.0,
+      "start_timestamp": "00:00.000",
+      "end_timestamp": "00:20.000",
+      "dialogue": "And so my fellow Americans, ask not what your country can do for you, ask what you can do for your country.",
+      "visual_summary": "[00:00.000] Visual frame at 00:00.000 | [00:05.000] Visual frame at 00:05.000",
+      "keyframes": [
+        {
+          "timestamp": 0.0,
+          "timestamp_formatted": "00:00.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/speech_sample/frame_0001.jpg",
+          "filename": "frame_0001.jpg"
+        },
+        {
+          "timestamp": 5.0,
+          "timestamp_formatted": "00:05.000",
+          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/speech_sample/frame_0002.jpg",
+          "filename": "frame_0002.jpg"
+        }
+      ]
+    }
+  ],
+  "context_prompt": "VIDEO METADATA:\n- Title / File: speech_sample.mp4\n- Total Duration: 00:11.000 (11.0s)\n- Resolution: 1280x720 @ 30.0 FPS\n\nSYNCHRONIZED AUDIO & VISUAL TIMELINE:\n[00:00.000 -> 00:20.000]\n  \u2022 Visual: [00:00.000] Visual frame at 00:00.000 | [00:05.000] Visual frame at 00:05.000\n  \u2022 Spoken Dialogue: And so my fellow Americans, ask not what your country can do for you, ask what you can do for your country.\n\nCOMPLETE AUDIO TRANSCRIPTION EXCERPT:\nAnd so my fellow Americans, ask not what your country can do for you, ask what you can do for your country.",
+  "gemma_analysis": {
+    "status": "success",
+    "model": "gemma4:12b-mlx",
+    "report_markdown": "### 1. \ud83d\udccc Executive Summary\nThis video is a concise, high-impact historical clip featuring one of the most famous rhetorical appeals in American history. It captures a pivotal moment of a speech where the speaker addresses the citizenry, pivoting from a focus on individual entitlement to a call for collective civic duty and personal responsibility.\n\nThe core purpose of the video is to inspire patriotism and encourage individuals to contribute to the betterment of their nation. Given the iconic nature of the quote, the video serves as a foundational piece of political and social rhetoric, emphasizing the importance of service and volunteerism in a democratic society.\n\n### 2. \ud83c\udfac Scene-by-Scene Timeline Breakdown\nDue to the short duration of the clip (11 seconds), the video functions as a single continuous scene:\n\n*   **[00:00 - 00:11] The Call to Civic Duty**\n    *   **What is happening:** The speaker delivers a powerful, rhythmic call to action. The audio captures the famous \"ask not\" exhortation, where the speaker challenges the audience to shift their perspective from seeking personal gain from the government to seeking ways to serve the country.\n\n### 3. \ud83d\udd0d Key Visual Elements & On-Screen Content\n*   **Subject:** While the specific visual description is limited to timestamps, the audio identifies the subject as a prominent historical figure (implied to be John F. Kennedy) delivering a formal address.\n*   **Setting:** Based on the context of the speech, the setting is a formal podium or public speaking engagement.\n*   **Visual Cues:** The visual frames at `00:00.000` and `00:05.000` capture the speaker's delivery, likely showing a steady, authoritative presence to match the gravity of the spoken words.\n\n### 4. \ud83c\udf99\ufe0f Key Audio Topics & Spoken Highlights\n*   **Core Theme:** Individual Responsibility vs. State Provision.\n*   **Spoken Highlight:** *\"And so my fellow Americans, ask not what your country can do for you, ask what you can do for your country.\"*\n*   **Rhetorical Style:** The speech utilizes **Antimetabole** (repeating a phrase in reverse order) to create a memorable and persuasive contrast between \"what the country can do for you\" and \"what you can do for your country.\"\n\n### 5. \ud83d\udca1 Key Takeaways & Summary Points\n*   **Shift in Perspective:** The primary message is a call to move from a passive, consumerist relationship with the state to an active, participatory role in society.\n*   **Civic Virtue:** The video highlights the importance of volunteerism, service, and personal contribution to the national interest.\n*   **Historical Significance:** This specific quote remains a cornerstone of American political rhetoric, symbolizing the ideals of the \"Greatest Generation\" and the responsibilities of citizenship.\n*   **Call to Action:** The video serves as a direct challenge to the viewer to identify personal ways to contribute to the community and country."
+  },
+  "elapsed_seconds": 82.5
+}

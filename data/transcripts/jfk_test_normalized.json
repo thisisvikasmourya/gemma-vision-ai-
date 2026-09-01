@@ -1,0 +1,21 @@
+{
+  "audio_filename": "jfk.wav",
+  "total_segments": 1,
+  "full_text": "And so my fellow Americans, ask not what your country can do for you, ask what you can do for your country.",
+  "segments": [
+    {
+      "id": 0,
+      "start_sec": 0.0,
+      "end_sec": 11.0,
+      "start_timestamp": "00:00.000",
+      "end_timestamp": "00:11.000",
+      "text": "And so my fellow Americans, ask not what your country can do for you, ask what you can do for your country."
+    }
+  ],
+  "files": {
+    "json": "/Users/vikasmourya/ai-models/video-trans/data/transcripts/jfk_test.json",
+    "srt": "/Users/vikasmourya/ai-models/video-trans/data/transcripts/jfk_test.srt",
+    "vtt": "/Users/vikasmourya/ai-models/video-trans/data/transcripts/jfk_test.vtt",
+    "txt": "/Users/vikasmourya/ai-models/video-trans/data/transcripts/jfk_test.txt"
+  }
+}
