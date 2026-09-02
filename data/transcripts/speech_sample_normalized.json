@@ -13,9 +13,9 @@
     }
   ],
   "files": {
-    "json": "/Users/vikasmourya/ai-models/video-trans/data/transcripts/speech_sample.json",
-    "srt": "/Users/vikasmourya/ai-models/video-trans/data/transcripts/speech_sample.srt",
-    "vtt": "/Users/vikasmourya/ai-models/video-trans/data/transcripts/speech_sample.vtt",
-    "txt": "/Users/vikasmourya/ai-models/video-trans/data/transcripts/speech_sample.txt"
+    "json": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/transcripts/speech_sample.json",
+    "srt": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/transcripts/speech_sample.srt",
+    "vtt": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/transcripts/speech_sample.vtt",
+    "txt": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/transcripts/speech_sample.txt"
   }
 }

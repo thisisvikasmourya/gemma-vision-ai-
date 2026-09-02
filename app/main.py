@@ -15,22 +15,25 @@ from pydantic import BaseModel
 
 from app.config import (
     BASE_DIR,
+    DEFAULT_FPS,
     DEFAULT_LLM_MODEL,
     FRAMES_DIR,
     TRANSCRIPTS_DIR,
     UPLOADS_DIR,
     VIDEOS_DIR,
+    VISION_MODEL,
 )
 from app.llm import GemmaVideoExplainer
 from app.pipeline import VideoUnderstandingPipeline
 from app.video import get_video_info
+from app.vision import VisionAnalyzer
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger("video-trans")
 
 app = FastAPI(
     title="Video Intelligence & Transcription Platform",
-    description="Local Video Understanding powered by Gemma 4 and whisper.cpp Metal",
+    description="Local Video Understanding powered by Gemma 4, local Vision models, and whisper.cpp Metal",
     version="1.0.0",
 )
 
@@ -51,7 +54,9 @@ class ProcessRequest(BaseModel):
     video_path: Optional[str] = None
     video_id: Optional[str] = None
     llm_model: Optional[str] = DEFAULT_LLM_MODEL
-    keyframe_interval: Optional[float] = 5.0
+    vision_model: Optional[str] = VISION_MODEL
+    target_fps: Optional[float] = DEFAULT_FPS
+    keyframe_interval: Optional[float] = None
 
 
 class ChatRequest(BaseModel):
@@ -60,7 +65,14 @@ class ChatRequest(BaseModel):
     chat_history: Optional[List[Dict[str, str]]] = []
 
 
-def run_pipeline_task(job_id: str, video_path: Path, llm_model: str, keyframe_interval: float):
+def run_pipeline_task(
+    job_id: str,
+    video_path: Path,
+    llm_model: str,
+    vision_model: str = VISION_MODEL,
+    target_fps: float = DEFAULT_FPS,
+    keyframe_interval: Optional[float] = None,
+):
     """Background worker executing the processing pipeline."""
     try:
         jobs_db[job_id]["status"] = "processing"
@@ -70,9 +82,10 @@ def run_pipeline_task(job_id: str, video_path: Path, llm_model: str, keyframe_in
             jobs_db[job_id]["progress"] = pct
             jobs_db[job_id]["message"] = msg
 
-        pipeline = VideoUnderstandingPipeline(llm_model=llm_model)
+        pipeline = VideoUnderstandingPipeline(llm_model=llm_model, vision_model=vision_model)
         result = pipeline.process_video(
             video_path=video_path,
+            target_fps=target_fps,
             keyframe_interval=keyframe_interval,
             progress_callback=progress_cb,
         )
@@ -91,10 +104,12 @@ def run_pipeline_task(job_id: str, video_path: Path, llm_model: str, keyframe_in
 @app.get("/api/health")
 def health_check():
     gemma = GemmaVideoExplainer()
+    vision = VisionAnalyzer()
     return {
         "status": "online",
         "ollama_connected": gemma.check_connection(),
         "default_llm": DEFAULT_LLM_MODEL,
+        "vision_model": vision.get_effective_vision_model(),
     }
 
 
@@ -176,7 +191,9 @@ def start_processing(req: ProcessRequest, bg_tasks: BackgroundTasks):
         job_id,
         target_path,
         req.llm_model or DEFAULT_LLM_MODEL,
-        req.keyframe_interval or 5.0,
+        req.vision_model or VISION_MODEL,
+        req.target_fps or DEFAULT_FPS,
+        req.keyframe_interval,
     )
 
     return {"job_id": job_id, "video_id": target_path.stem, "status": "queued"}

@@ -20,7 +20,7 @@
 		"ftype": 1
 	},
 	"params": {
-		"model": "/Users/vikasmourya/ai-models/video-trans/whisper.cpp/models/ggml-base.en.bin",
+		"model": "/Users/vikasmourya/ai-models/gemma-vision-ai/whisper.cpp/models/ggml-base.en.bin",
 		"language": "en",
 		"translate": false
 	},

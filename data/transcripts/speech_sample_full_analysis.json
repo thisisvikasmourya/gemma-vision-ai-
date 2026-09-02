@@ -28,58 +28,3587 @@
       }
     ],
     "files": {
-      "json": "/Users/vikasmourya/ai-models/video-trans/data/transcripts/speech_sample.json",
-      "srt": "/Users/vikasmourya/ai-models/video-trans/data/transcripts/speech_sample.srt",
-      "vtt": "/Users/vikasmourya/ai-models/video-trans/data/transcripts/speech_sample.vtt",
-      "txt": "/Users/vikasmourya/ai-models/video-trans/data/transcripts/speech_sample.txt"
+      "json": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/transcripts/speech_sample.json",
+      "srt": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/transcripts/speech_sample.srt",
+      "vtt": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/transcripts/speech_sample.vtt",
+      "txt": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/transcripts/speech_sample.txt"
     }
   },
   "keyframes": [
     {
+      "index": 1,
       "timestamp": 0.0,
       "timestamp_formatted": "00:00.000",
-      "description": "Visual frame at 00:00.000",
-      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/speech_sample/frame_0001.jpg",
-      "filename": "frame_0001.jpg"
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000001.jpg",
+      "filename": "frame_000001.jpg",
+      "second_number": 1,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:00.967"
     },
     {
+      "index": 2,
+      "timestamp": 0.0333,
+      "timestamp_formatted": "00:00.033",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000002.jpg",
+      "filename": "frame_000002.jpg",
+      "second_number": 1,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:00.967"
+    },
+    {
+      "index": 3,
+      "timestamp": 0.0667,
+      "timestamp_formatted": "00:00.067",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000003.jpg",
+      "filename": "frame_000003.jpg",
+      "second_number": 1,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:00.967"
+    },
+    {
+      "index": 4,
+      "timestamp": 0.1,
+      "timestamp_formatted": "00:00.100",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000004.jpg",
+      "filename": "frame_000004.jpg",
+      "second_number": 1,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:00.967"
+    },
+    {
+      "index": 5,
+      "timestamp": 0.1333,
+      "timestamp_formatted": "00:00.133",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000005.jpg",
+      "filename": "frame_000005.jpg",
+      "second_number": 1,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:00.967"
+    },
+    {
+      "index": 6,
+      "timestamp": 0.1667,
+      "timestamp_formatted": "00:00.167",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000006.jpg",
+      "filename": "frame_000006.jpg",
+      "second_number": 1,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:00.967"
+    },
+    {
+      "index": 7,
+      "timestamp": 0.2,
+      "timestamp_formatted": "00:00.200",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000007.jpg",
+      "filename": "frame_000007.jpg",
+      "second_number": 1,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:00.967"
+    },
+    {
+      "index": 8,
+      "timestamp": 0.2333,
+      "timestamp_formatted": "00:00.233",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000008.jpg",
+      "filename": "frame_000008.jpg",
+      "second_number": 1,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:00.967"
+    },
+    {
+      "index": 9,
+      "timestamp": 0.2667,
+      "timestamp_formatted": "00:00.267",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000009.jpg",
+      "filename": "frame_000009.jpg",
+      "second_number": 1,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:00.967"
+    },
+    {
+      "index": 10,
+      "timestamp": 0.3,
+      "timestamp_formatted": "00:00.300",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000010.jpg",
+      "filename": "frame_000010.jpg",
+      "second_number": 1,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:00.967"
+    },
+    {
+      "index": 11,
+      "timestamp": 0.3333,
+      "timestamp_formatted": "00:00.333",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000011.jpg",
+      "filename": "frame_000011.jpg",
+      "second_number": 1,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:00.967"
+    },
+    {
+      "index": 12,
+      "timestamp": 0.3667,
+      "timestamp_formatted": "00:00.367",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000012.jpg",
+      "filename": "frame_000012.jpg",
+      "second_number": 1,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:00.967"
+    },
+    {
+      "index": 13,
+      "timestamp": 0.4,
+      "timestamp_formatted": "00:00.400",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000013.jpg",
+      "filename": "frame_000013.jpg",
+      "second_number": 1,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:00.967"
+    },
+    {
+      "index": 14,
+      "timestamp": 0.4333,
+      "timestamp_formatted": "00:00.433",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000014.jpg",
+      "filename": "frame_000014.jpg",
+      "second_number": 1,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:00.967"
+    },
+    {
+      "index": 15,
+      "timestamp": 0.4667,
+      "timestamp_formatted": "00:00.467",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000015.jpg",
+      "filename": "frame_000015.jpg",
+      "second_number": 1,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:00.967"
+    },
+    {
+      "index": 16,
+      "timestamp": 0.5,
+      "timestamp_formatted": "00:00.500",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000016.jpg",
+      "filename": "frame_000016.jpg",
+      "second_number": 1,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:00.967"
+    },
+    {
+      "index": 17,
+      "timestamp": 0.5333,
+      "timestamp_formatted": "00:00.533",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000017.jpg",
+      "filename": "frame_000017.jpg",
+      "second_number": 1,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:00.967"
+    },
+    {
+      "index": 18,
+      "timestamp": 0.5667,
+      "timestamp_formatted": "00:00.567",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000018.jpg",
+      "filename": "frame_000018.jpg",
+      "second_number": 1,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:00.967"
+    },
+    {
+      "index": 19,
+      "timestamp": 0.6,
+      "timestamp_formatted": "00:00.600",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000019.jpg",
+      "filename": "frame_000019.jpg",
+      "second_number": 1,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:00.967"
+    },
+    {
+      "index": 20,
+      "timestamp": 0.6333,
+      "timestamp_formatted": "00:00.633",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000020.jpg",
+      "filename": "frame_000020.jpg",
+      "second_number": 1,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:00.967"
+    },
+    {
+      "index": 21,
+      "timestamp": 0.6667,
+      "timestamp_formatted": "00:00.667",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000021.jpg",
+      "filename": "frame_000021.jpg",
+      "second_number": 1,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:00.967"
+    },
+    {
+      "index": 22,
+      "timestamp": 0.7,
+      "timestamp_formatted": "00:00.700",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000022.jpg",
+      "filename": "frame_000022.jpg",
+      "second_number": 1,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:00.967"
+    },
+    {
+      "index": 23,
+      "timestamp": 0.7333,
+      "timestamp_formatted": "00:00.733",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000023.jpg",
+      "filename": "frame_000023.jpg",
+      "second_number": 1,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:00.967"
+    },
+    {
+      "index": 24,
+      "timestamp": 0.7667,
+      "timestamp_formatted": "00:00.767",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000024.jpg",
+      "filename": "frame_000024.jpg",
+      "second_number": 1,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:00.967"
+    },
+    {
+      "index": 25,
+      "timestamp": 0.8,
+      "timestamp_formatted": "00:00.800",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000025.jpg",
+      "filename": "frame_000025.jpg",
+      "second_number": 1,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:00.967"
+    },
+    {
+      "index": 26,
+      "timestamp": 0.8333,
+      "timestamp_formatted": "00:00.833",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000026.jpg",
+      "filename": "frame_000026.jpg",
+      "second_number": 1,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:00.967"
+    },
+    {
+      "index": 27,
+      "timestamp": 0.8667,
+      "timestamp_formatted": "00:00.867",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000027.jpg",
+      "filename": "frame_000027.jpg",
+      "second_number": 1,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:00.967"
+    },
+    {
+      "index": 28,
+      "timestamp": 0.9,
+      "timestamp_formatted": "00:00.900",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000028.jpg",
+      "filename": "frame_000028.jpg",
+      "second_number": 1,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:00.967"
+    },
+    {
+      "index": 29,
+      "timestamp": 0.9333,
+      "timestamp_formatted": "00:00.933",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000029.jpg",
+      "filename": "frame_000029.jpg",
+      "second_number": 1,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:00.967"
+    },
+    {
+      "index": 30,
+      "timestamp": 0.9667,
+      "timestamp_formatted": "00:00.967",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000030.jpg",
+      "filename": "frame_000030.jpg",
+      "second_number": 1,
+      "is_second_keyframe": true,
+      "description": "Visual scene at 00:00.967"
+    },
+    {
+      "index": 31,
+      "timestamp": 1.0,
+      "timestamp_formatted": "00:01.000",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000031.jpg",
+      "filename": "frame_000031.jpg",
+      "second_number": 2,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:01.967"
+    },
+    {
+      "index": 32,
+      "timestamp": 1.0333,
+      "timestamp_formatted": "00:01.033",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000032.jpg",
+      "filename": "frame_000032.jpg",
+      "second_number": 2,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:01.967"
+    },
+    {
+      "index": 33,
+      "timestamp": 1.0667,
+      "timestamp_formatted": "00:01.067",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000033.jpg",
+      "filename": "frame_000033.jpg",
+      "second_number": 2,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:01.967"
+    },
+    {
+      "index": 34,
+      "timestamp": 1.1,
+      "timestamp_formatted": "00:01.100",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000034.jpg",
+      "filename": "frame_000034.jpg",
+      "second_number": 2,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:01.967"
+    },
+    {
+      "index": 35,
+      "timestamp": 1.1333,
+      "timestamp_formatted": "00:01.133",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000035.jpg",
+      "filename": "frame_000035.jpg",
+      "second_number": 2,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:01.967"
+    },
+    {
+      "index": 36,
+      "timestamp": 1.1667,
+      "timestamp_formatted": "00:01.167",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000036.jpg",
+      "filename": "frame_000036.jpg",
+      "second_number": 2,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:01.967"
+    },
+    {
+      "index": 37,
+      "timestamp": 1.2,
+      "timestamp_formatted": "00:01.200",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000037.jpg",
+      "filename": "frame_000037.jpg",
+      "second_number": 2,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:01.967"
+    },
+    {
+      "index": 38,
+      "timestamp": 1.2333,
+      "timestamp_formatted": "00:01.233",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000038.jpg",
+      "filename": "frame_000038.jpg",
+      "second_number": 2,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:01.967"
+    },
+    {
+      "index": 39,
+      "timestamp": 1.2667,
+      "timestamp_formatted": "00:01.267",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000039.jpg",
+      "filename": "frame_000039.jpg",
+      "second_number": 2,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:01.967"
+    },
+    {
+      "index": 40,
+      "timestamp": 1.3,
+      "timestamp_formatted": "00:01.300",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000040.jpg",
+      "filename": "frame_000040.jpg",
+      "second_number": 2,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:01.967"
+    },
+    {
+      "index": 41,
+      "timestamp": 1.3333,
+      "timestamp_formatted": "00:01.333",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000041.jpg",
+      "filename": "frame_000041.jpg",
+      "second_number": 2,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:01.967"
+    },
+    {
+      "index": 42,
+      "timestamp": 1.3667,
+      "timestamp_formatted": "00:01.367",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000042.jpg",
+      "filename": "frame_000042.jpg",
+      "second_number": 2,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:01.967"
+    },
+    {
+      "index": 43,
+      "timestamp": 1.4,
+      "timestamp_formatted": "00:01.400",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000043.jpg",
+      "filename": "frame_000043.jpg",
+      "second_number": 2,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:01.967"
+    },
+    {
+      "index": 44,
+      "timestamp": 1.4333,
+      "timestamp_formatted": "00:01.433",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000044.jpg",
+      "filename": "frame_000044.jpg",
+      "second_number": 2,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:01.967"
+    },
+    {
+      "index": 45,
+      "timestamp": 1.4667,
+      "timestamp_formatted": "00:01.467",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000045.jpg",
+      "filename": "frame_000045.jpg",
+      "second_number": 2,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:01.967"
+    },
+    {
+      "index": 46,
+      "timestamp": 1.5,
+      "timestamp_formatted": "00:01.500",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000046.jpg",
+      "filename": "frame_000046.jpg",
+      "second_number": 2,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:01.967"
+    },
+    {
+      "index": 47,
+      "timestamp": 1.5333,
+      "timestamp_formatted": "00:01.533",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000047.jpg",
+      "filename": "frame_000047.jpg",
+      "second_number": 2,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:01.967"
+    },
+    {
+      "index": 48,
+      "timestamp": 1.5667,
+      "timestamp_formatted": "00:01.567",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000048.jpg",
+      "filename": "frame_000048.jpg",
+      "second_number": 2,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:01.967"
+    },
+    {
+      "index": 49,
+      "timestamp": 1.6,
+      "timestamp_formatted": "00:01.600",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000049.jpg",
+      "filename": "frame_000049.jpg",
+      "second_number": 2,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:01.967"
+    },
+    {
+      "index": 50,
+      "timestamp": 1.6333,
+      "timestamp_formatted": "00:01.633",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000050.jpg",
+      "filename": "frame_000050.jpg",
+      "second_number": 2,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:01.967"
+    },
+    {
+      "index": 51,
+      "timestamp": 1.6667,
+      "timestamp_formatted": "00:01.667",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000051.jpg",
+      "filename": "frame_000051.jpg",
+      "second_number": 2,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:01.967"
+    },
+    {
+      "index": 52,
+      "timestamp": 1.7,
+      "timestamp_formatted": "00:01.700",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000052.jpg",
+      "filename": "frame_000052.jpg",
+      "second_number": 2,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:01.967"
+    },
+    {
+      "index": 53,
+      "timestamp": 1.7333,
+      "timestamp_formatted": "00:01.733",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000053.jpg",
+      "filename": "frame_000053.jpg",
+      "second_number": 2,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:01.967"
+    },
+    {
+      "index": 54,
+      "timestamp": 1.7667,
+      "timestamp_formatted": "00:01.767",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000054.jpg",
+      "filename": "frame_000054.jpg",
+      "second_number": 2,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:01.967"
+    },
+    {
+      "index": 55,
+      "timestamp": 1.8,
+      "timestamp_formatted": "00:01.800",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000055.jpg",
+      "filename": "frame_000055.jpg",
+      "second_number": 2,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:01.967"
+    },
+    {
+      "index": 56,
+      "timestamp": 1.8333,
+      "timestamp_formatted": "00:01.833",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000056.jpg",
+      "filename": "frame_000056.jpg",
+      "second_number": 2,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:01.967"
+    },
+    {
+      "index": 57,
+      "timestamp": 1.8667,
+      "timestamp_formatted": "00:01.867",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000057.jpg",
+      "filename": "frame_000057.jpg",
+      "second_number": 2,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:01.967"
+    },
+    {
+      "index": 58,
+      "timestamp": 1.9,
+      "timestamp_formatted": "00:01.900",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000058.jpg",
+      "filename": "frame_000058.jpg",
+      "second_number": 2,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:01.967"
+    },
+    {
+      "index": 59,
+      "timestamp": 1.9333,
+      "timestamp_formatted": "00:01.933",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000059.jpg",
+      "filename": "frame_000059.jpg",
+      "second_number": 2,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:01.967"
+    },
+    {
+      "index": 60,
+      "timestamp": 1.9667,
+      "timestamp_formatted": "00:01.967",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000060.jpg",
+      "filename": "frame_000060.jpg",
+      "second_number": 2,
+      "is_second_keyframe": true,
+      "description": "Visual scene at 00:01.967"
+    },
+    {
+      "index": 61,
+      "timestamp": 2.0,
+      "timestamp_formatted": "00:02.000",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000061.jpg",
+      "filename": "frame_000061.jpg",
+      "second_number": 3,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:02.967"
+    },
+    {
+      "index": 62,
+      "timestamp": 2.0333,
+      "timestamp_formatted": "00:02.033",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000062.jpg",
+      "filename": "frame_000062.jpg",
+      "second_number": 3,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:02.967"
+    },
+    {
+      "index": 63,
+      "timestamp": 2.0667,
+      "timestamp_formatted": "00:02.067",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000063.jpg",
+      "filename": "frame_000063.jpg",
+      "second_number": 3,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:02.967"
+    },
+    {
+      "index": 64,
+      "timestamp": 2.1,
+      "timestamp_formatted": "00:02.100",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000064.jpg",
+      "filename": "frame_000064.jpg",
+      "second_number": 3,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:02.967"
+    },
+    {
+      "index": 65,
+      "timestamp": 2.1333,
+      "timestamp_formatted": "00:02.133",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000065.jpg",
+      "filename": "frame_000065.jpg",
+      "second_number": 3,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:02.967"
+    },
+    {
+      "index": 66,
+      "timestamp": 2.1667,
+      "timestamp_formatted": "00:02.167",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000066.jpg",
+      "filename": "frame_000066.jpg",
+      "second_number": 3,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:02.967"
+    },
+    {
+      "index": 67,
+      "timestamp": 2.2,
+      "timestamp_formatted": "00:02.200",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000067.jpg",
+      "filename": "frame_000067.jpg",
+      "second_number": 3,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:02.967"
+    },
+    {
+      "index": 68,
+      "timestamp": 2.2333,
+      "timestamp_formatted": "00:02.233",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000068.jpg",
+      "filename": "frame_000068.jpg",
+      "second_number": 3,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:02.967"
+    },
+    {
+      "index": 69,
+      "timestamp": 2.2667,
+      "timestamp_formatted": "00:02.267",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000069.jpg",
+      "filename": "frame_000069.jpg",
+      "second_number": 3,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:02.967"
+    },
+    {
+      "index": 70,
+      "timestamp": 2.3,
+      "timestamp_formatted": "00:02.300",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000070.jpg",
+      "filename": "frame_000070.jpg",
+      "second_number": 3,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:02.967"
+    },
+    {
+      "index": 71,
+      "timestamp": 2.3333,
+      "timestamp_formatted": "00:02.333",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000071.jpg",
+      "filename": "frame_000071.jpg",
+      "second_number": 3,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:02.967"
+    },
+    {
+      "index": 72,
+      "timestamp": 2.3667,
+      "timestamp_formatted": "00:02.367",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000072.jpg",
+      "filename": "frame_000072.jpg",
+      "second_number": 3,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:02.967"
+    },
+    {
+      "index": 73,
+      "timestamp": 2.4,
+      "timestamp_formatted": "00:02.400",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000073.jpg",
+      "filename": "frame_000073.jpg",
+      "second_number": 3,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:02.967"
+    },
+    {
+      "index": 74,
+      "timestamp": 2.4333,
+      "timestamp_formatted": "00:02.433",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000074.jpg",
+      "filename": "frame_000074.jpg",
+      "second_number": 3,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:02.967"
+    },
+    {
+      "index": 75,
+      "timestamp": 2.4667,
+      "timestamp_formatted": "00:02.467",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000075.jpg",
+      "filename": "frame_000075.jpg",
+      "second_number": 3,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:02.967"
+    },
+    {
+      "index": 76,
+      "timestamp": 2.5,
+      "timestamp_formatted": "00:02.500",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000076.jpg",
+      "filename": "frame_000076.jpg",
+      "second_number": 3,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:02.967"
+    },
+    {
+      "index": 77,
+      "timestamp": 2.5333,
+      "timestamp_formatted": "00:02.533",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000077.jpg",
+      "filename": "frame_000077.jpg",
+      "second_number": 3,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:02.967"
+    },
+    {
+      "index": 78,
+      "timestamp": 2.5667,
+      "timestamp_formatted": "00:02.567",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000078.jpg",
+      "filename": "frame_000078.jpg",
+      "second_number": 3,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:02.967"
+    },
+    {
+      "index": 79,
+      "timestamp": 2.6,
+      "timestamp_formatted": "00:02.600",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000079.jpg",
+      "filename": "frame_000079.jpg",
+      "second_number": 3,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:02.967"
+    },
+    {
+      "index": 80,
+      "timestamp": 2.6333,
+      "timestamp_formatted": "00:02.633",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000080.jpg",
+      "filename": "frame_000080.jpg",
+      "second_number": 3,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:02.967"
+    },
+    {
+      "index": 81,
+      "timestamp": 2.6667,
+      "timestamp_formatted": "00:02.667",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000081.jpg",
+      "filename": "frame_000081.jpg",
+      "second_number": 3,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:02.967"
+    },
+    {
+      "index": 82,
+      "timestamp": 2.7,
+      "timestamp_formatted": "00:02.700",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000082.jpg",
+      "filename": "frame_000082.jpg",
+      "second_number": 3,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:02.967"
+    },
+    {
+      "index": 83,
+      "timestamp": 2.7333,
+      "timestamp_formatted": "00:02.733",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000083.jpg",
+      "filename": "frame_000083.jpg",
+      "second_number": 3,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:02.967"
+    },
+    {
+      "index": 84,
+      "timestamp": 2.7667,
+      "timestamp_formatted": "00:02.767",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000084.jpg",
+      "filename": "frame_000084.jpg",
+      "second_number": 3,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:02.967"
+    },
+    {
+      "index": 85,
+      "timestamp": 2.8,
+      "timestamp_formatted": "00:02.800",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000085.jpg",
+      "filename": "frame_000085.jpg",
+      "second_number": 3,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:02.967"
+    },
+    {
+      "index": 86,
+      "timestamp": 2.8333,
+      "timestamp_formatted": "00:02.833",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000086.jpg",
+      "filename": "frame_000086.jpg",
+      "second_number": 3,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:02.967"
+    },
+    {
+      "index": 87,
+      "timestamp": 2.8667,
+      "timestamp_formatted": "00:02.867",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000087.jpg",
+      "filename": "frame_000087.jpg",
+      "second_number": 3,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:02.967"
+    },
+    {
+      "index": 88,
+      "timestamp": 2.9,
+      "timestamp_formatted": "00:02.900",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000088.jpg",
+      "filename": "frame_000088.jpg",
+      "second_number": 3,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:02.967"
+    },
+    {
+      "index": 89,
+      "timestamp": 2.9333,
+      "timestamp_formatted": "00:02.933",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000089.jpg",
+      "filename": "frame_000089.jpg",
+      "second_number": 3,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:02.967"
+    },
+    {
+      "index": 90,
+      "timestamp": 2.9667,
+      "timestamp_formatted": "00:02.967",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000090.jpg",
+      "filename": "frame_000090.jpg",
+      "second_number": 3,
+      "is_second_keyframe": true,
+      "description": "Visual scene at 00:02.967"
+    },
+    {
+      "index": 91,
+      "timestamp": 3.0,
+      "timestamp_formatted": "00:03.000",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000091.jpg",
+      "filename": "frame_000091.jpg",
+      "second_number": 4,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:03.967"
+    },
+    {
+      "index": 92,
+      "timestamp": 3.0333,
+      "timestamp_formatted": "00:03.033",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000092.jpg",
+      "filename": "frame_000092.jpg",
+      "second_number": 4,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:03.967"
+    },
+    {
+      "index": 93,
+      "timestamp": 3.0667,
+      "timestamp_formatted": "00:03.067",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000093.jpg",
+      "filename": "frame_000093.jpg",
+      "second_number": 4,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:03.967"
+    },
+    {
+      "index": 94,
+      "timestamp": 3.1,
+      "timestamp_formatted": "00:03.100",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000094.jpg",
+      "filename": "frame_000094.jpg",
+      "second_number": 4,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:03.967"
+    },
+    {
+      "index": 95,
+      "timestamp": 3.1333,
+      "timestamp_formatted": "00:03.133",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000095.jpg",
+      "filename": "frame_000095.jpg",
+      "second_number": 4,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:03.967"
+    },
+    {
+      "index": 96,
+      "timestamp": 3.1667,
+      "timestamp_formatted": "00:03.167",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000096.jpg",
+      "filename": "frame_000096.jpg",
+      "second_number": 4,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:03.967"
+    },
+    {
+      "index": 97,
+      "timestamp": 3.2,
+      "timestamp_formatted": "00:03.200",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000097.jpg",
+      "filename": "frame_000097.jpg",
+      "second_number": 4,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:03.967"
+    },
+    {
+      "index": 98,
+      "timestamp": 3.2333,
+      "timestamp_formatted": "00:03.233",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000098.jpg",
+      "filename": "frame_000098.jpg",
+      "second_number": 4,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:03.967"
+    },
+    {
+      "index": 99,
+      "timestamp": 3.2667,
+      "timestamp_formatted": "00:03.267",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000099.jpg",
+      "filename": "frame_000099.jpg",
+      "second_number": 4,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:03.967"
+    },
+    {
+      "index": 100,
+      "timestamp": 3.3,
+      "timestamp_formatted": "00:03.300",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000100.jpg",
+      "filename": "frame_000100.jpg",
+      "second_number": 4,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:03.967"
+    },
+    {
+      "index": 101,
+      "timestamp": 3.3333,
+      "timestamp_formatted": "00:03.333",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000101.jpg",
+      "filename": "frame_000101.jpg",
+      "second_number": 4,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:03.967"
+    },
+    {
+      "index": 102,
+      "timestamp": 3.3667,
+      "timestamp_formatted": "00:03.367",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000102.jpg",
+      "filename": "frame_000102.jpg",
+      "second_number": 4,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:03.967"
+    },
+    {
+      "index": 103,
+      "timestamp": 3.4,
+      "timestamp_formatted": "00:03.400",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000103.jpg",
+      "filename": "frame_000103.jpg",
+      "second_number": 4,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:03.967"
+    },
+    {
+      "index": 104,
+      "timestamp": 3.4333,
+      "timestamp_formatted": "00:03.433",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000104.jpg",
+      "filename": "frame_000104.jpg",
+      "second_number": 4,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:03.967"
+    },
+    {
+      "index": 105,
+      "timestamp": 3.4667,
+      "timestamp_formatted": "00:03.467",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000105.jpg",
+      "filename": "frame_000105.jpg",
+      "second_number": 4,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:03.967"
+    },
+    {
+      "index": 106,
+      "timestamp": 3.5,
+      "timestamp_formatted": "00:03.500",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000106.jpg",
+      "filename": "frame_000106.jpg",
+      "second_number": 4,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:03.967"
+    },
+    {
+      "index": 107,
+      "timestamp": 3.5333,
+      "timestamp_formatted": "00:03.533",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000107.jpg",
+      "filename": "frame_000107.jpg",
+      "second_number": 4,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:03.967"
+    },
+    {
+      "index": 108,
+      "timestamp": 3.5667,
+      "timestamp_formatted": "00:03.567",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000108.jpg",
+      "filename": "frame_000108.jpg",
+      "second_number": 4,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:03.967"
+    },
+    {
+      "index": 109,
+      "timestamp": 3.6,
+      "timestamp_formatted": "00:03.600",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000109.jpg",
+      "filename": "frame_000109.jpg",
+      "second_number": 4,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:03.967"
+    },
+    {
+      "index": 110,
+      "timestamp": 3.6333,
+      "timestamp_formatted": "00:03.633",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000110.jpg",
+      "filename": "frame_000110.jpg",
+      "second_number": 4,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:03.967"
+    },
+    {
+      "index": 111,
+      "timestamp": 3.6667,
+      "timestamp_formatted": "00:03.667",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000111.jpg",
+      "filename": "frame_000111.jpg",
+      "second_number": 4,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:03.967"
+    },
+    {
+      "index": 112,
+      "timestamp": 3.7,
+      "timestamp_formatted": "00:03.700",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000112.jpg",
+      "filename": "frame_000112.jpg",
+      "second_number": 4,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:03.967"
+    },
+    {
+      "index": 113,
+      "timestamp": 3.7333,
+      "timestamp_formatted": "00:03.733",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000113.jpg",
+      "filename": "frame_000113.jpg",
+      "second_number": 4,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:03.967"
+    },
+    {
+      "index": 114,
+      "timestamp": 3.7667,
+      "timestamp_formatted": "00:03.767",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000114.jpg",
+      "filename": "frame_000114.jpg",
+      "second_number": 4,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:03.967"
+    },
+    {
+      "index": 115,
+      "timestamp": 3.8,
+      "timestamp_formatted": "00:03.800",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000115.jpg",
+      "filename": "frame_000115.jpg",
+      "second_number": 4,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:03.967"
+    },
+    {
+      "index": 116,
+      "timestamp": 3.8333,
+      "timestamp_formatted": "00:03.833",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000116.jpg",
+      "filename": "frame_000116.jpg",
+      "second_number": 4,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:03.967"
+    },
+    {
+      "index": 117,
+      "timestamp": 3.8667,
+      "timestamp_formatted": "00:03.867",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000117.jpg",
+      "filename": "frame_000117.jpg",
+      "second_number": 4,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:03.967"
+    },
+    {
+      "index": 118,
+      "timestamp": 3.9,
+      "timestamp_formatted": "00:03.900",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000118.jpg",
+      "filename": "frame_000118.jpg",
+      "second_number": 4,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:03.967"
+    },
+    {
+      "index": 119,
+      "timestamp": 3.9333,
+      "timestamp_formatted": "00:03.933",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000119.jpg",
+      "filename": "frame_000119.jpg",
+      "second_number": 4,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:03.967"
+    },
+    {
+      "index": 120,
+      "timestamp": 3.9667,
+      "timestamp_formatted": "00:03.967",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000120.jpg",
+      "filename": "frame_000120.jpg",
+      "second_number": 4,
+      "is_second_keyframe": true,
+      "description": "Visual scene at 00:03.967"
+    },
+    {
+      "index": 121,
+      "timestamp": 4.0,
+      "timestamp_formatted": "00:04.000",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000121.jpg",
+      "filename": "frame_000121.jpg",
+      "second_number": 5,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:04.967"
+    },
+    {
+      "index": 122,
+      "timestamp": 4.0333,
+      "timestamp_formatted": "00:04.033",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000122.jpg",
+      "filename": "frame_000122.jpg",
+      "second_number": 5,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:04.967"
+    },
+    {
+      "index": 123,
+      "timestamp": 4.0667,
+      "timestamp_formatted": "00:04.067",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000123.jpg",
+      "filename": "frame_000123.jpg",
+      "second_number": 5,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:04.967"
+    },
+    {
+      "index": 124,
+      "timestamp": 4.1,
+      "timestamp_formatted": "00:04.100",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000124.jpg",
+      "filename": "frame_000124.jpg",
+      "second_number": 5,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:04.967"
+    },
+    {
+      "index": 125,
+      "timestamp": 4.1333,
+      "timestamp_formatted": "00:04.133",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000125.jpg",
+      "filename": "frame_000125.jpg",
+      "second_number": 5,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:04.967"
+    },
+    {
+      "index": 126,
+      "timestamp": 4.1667,
+      "timestamp_formatted": "00:04.167",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000126.jpg",
+      "filename": "frame_000126.jpg",
+      "second_number": 5,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:04.967"
+    },
+    {
+      "index": 127,
+      "timestamp": 4.2,
+      "timestamp_formatted": "00:04.200",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000127.jpg",
+      "filename": "frame_000127.jpg",
+      "second_number": 5,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:04.967"
+    },
+    {
+      "index": 128,
+      "timestamp": 4.2333,
+      "timestamp_formatted": "00:04.233",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000128.jpg",
+      "filename": "frame_000128.jpg",
+      "second_number": 5,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:04.967"
+    },
+    {
+      "index": 129,
+      "timestamp": 4.2667,
+      "timestamp_formatted": "00:04.267",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000129.jpg",
+      "filename": "frame_000129.jpg",
+      "second_number": 5,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:04.967"
+    },
+    {
+      "index": 130,
+      "timestamp": 4.3,
+      "timestamp_formatted": "00:04.300",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000130.jpg",
+      "filename": "frame_000130.jpg",
+      "second_number": 5,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:04.967"
+    },
+    {
+      "index": 131,
+      "timestamp": 4.3333,
+      "timestamp_formatted": "00:04.333",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000131.jpg",
+      "filename": "frame_000131.jpg",
+      "second_number": 5,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:04.967"
+    },
+    {
+      "index": 132,
+      "timestamp": 4.3667,
+      "timestamp_formatted": "00:04.367",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000132.jpg",
+      "filename": "frame_000132.jpg",
+      "second_number": 5,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:04.967"
+    },
+    {
+      "index": 133,
+      "timestamp": 4.4,
+      "timestamp_formatted": "00:04.400",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000133.jpg",
+      "filename": "frame_000133.jpg",
+      "second_number": 5,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:04.967"
+    },
+    {
+      "index": 134,
+      "timestamp": 4.4333,
+      "timestamp_formatted": "00:04.433",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000134.jpg",
+      "filename": "frame_000134.jpg",
+      "second_number": 5,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:04.967"
+    },
+    {
+      "index": 135,
+      "timestamp": 4.4667,
+      "timestamp_formatted": "00:04.467",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000135.jpg",
+      "filename": "frame_000135.jpg",
+      "second_number": 5,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:04.967"
+    },
+    {
+      "index": 136,
+      "timestamp": 4.5,
+      "timestamp_formatted": "00:04.500",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000136.jpg",
+      "filename": "frame_000136.jpg",
+      "second_number": 5,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:04.967"
+    },
+    {
+      "index": 137,
+      "timestamp": 4.5333,
+      "timestamp_formatted": "00:04.533",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000137.jpg",
+      "filename": "frame_000137.jpg",
+      "second_number": 5,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:04.967"
+    },
+    {
+      "index": 138,
+      "timestamp": 4.5667,
+      "timestamp_formatted": "00:04.567",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000138.jpg",
+      "filename": "frame_000138.jpg",
+      "second_number": 5,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:04.967"
+    },
+    {
+      "index": 139,
+      "timestamp": 4.6,
+      "timestamp_formatted": "00:04.600",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000139.jpg",
+      "filename": "frame_000139.jpg",
+      "second_number": 5,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:04.967"
+    },
+    {
+      "index": 140,
+      "timestamp": 4.6333,
+      "timestamp_formatted": "00:04.633",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000140.jpg",
+      "filename": "frame_000140.jpg",
+      "second_number": 5,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:04.967"
+    },
+    {
+      "index": 141,
+      "timestamp": 4.6667,
+      "timestamp_formatted": "00:04.667",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000141.jpg",
+      "filename": "frame_000141.jpg",
+      "second_number": 5,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:04.967"
+    },
+    {
+      "index": 142,
+      "timestamp": 4.7,
+      "timestamp_formatted": "00:04.700",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000142.jpg",
+      "filename": "frame_000142.jpg",
+      "second_number": 5,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:04.967"
+    },
+    {
+      "index": 143,
+      "timestamp": 4.7333,
+      "timestamp_formatted": "00:04.733",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000143.jpg",
+      "filename": "frame_000143.jpg",
+      "second_number": 5,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:04.967"
+    },
+    {
+      "index": 144,
+      "timestamp": 4.7667,
+      "timestamp_formatted": "00:04.767",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000144.jpg",
+      "filename": "frame_000144.jpg",
+      "second_number": 5,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:04.967"
+    },
+    {
+      "index": 145,
+      "timestamp": 4.8,
+      "timestamp_formatted": "00:04.800",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000145.jpg",
+      "filename": "frame_000145.jpg",
+      "second_number": 5,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:04.967"
+    },
+    {
+      "index": 146,
+      "timestamp": 4.8333,
+      "timestamp_formatted": "00:04.833",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000146.jpg",
+      "filename": "frame_000146.jpg",
+      "second_number": 5,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:04.967"
+    },
+    {
+      "index": 147,
+      "timestamp": 4.8667,
+      "timestamp_formatted": "00:04.867",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000147.jpg",
+      "filename": "frame_000147.jpg",
+      "second_number": 5,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:04.967"
+    },
+    {
+      "index": 148,
+      "timestamp": 4.9,
+      "timestamp_formatted": "00:04.900",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000148.jpg",
+      "filename": "frame_000148.jpg",
+      "second_number": 5,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:04.967"
+    },
+    {
+      "index": 149,
+      "timestamp": 4.9333,
+      "timestamp_formatted": "00:04.933",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000149.jpg",
+      "filename": "frame_000149.jpg",
+      "second_number": 5,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:04.967"
+    },
+    {
+      "index": 150,
+      "timestamp": 4.9667,
+      "timestamp_formatted": "00:04.967",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000150.jpg",
+      "filename": "frame_000150.jpg",
+      "second_number": 5,
+      "is_second_keyframe": true,
+      "description": "Visual scene at 00:04.967"
+    },
+    {
+      "index": 151,
       "timestamp": 5.0,
       "timestamp_formatted": "00:05.000",
-      "description": "Visual frame at 00:05.000",
-      "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/speech_sample/frame_0002.jpg",
-      "filename": "frame_0002.jpg"
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000151.jpg",
+      "filename": "frame_000151.jpg",
+      "second_number": 6,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:05.967"
+    },
+    {
+      "index": 152,
+      "timestamp": 5.0333,
+      "timestamp_formatted": "00:05.033",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000152.jpg",
+      "filename": "frame_000152.jpg",
+      "second_number": 6,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:05.967"
+    },
+    {
+      "index": 153,
+      "timestamp": 5.0667,
+      "timestamp_formatted": "00:05.067",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000153.jpg",
+      "filename": "frame_000153.jpg",
+      "second_number": 6,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:05.967"
+    },
+    {
+      "index": 154,
+      "timestamp": 5.1,
+      "timestamp_formatted": "00:05.100",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000154.jpg",
+      "filename": "frame_000154.jpg",
+      "second_number": 6,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:05.967"
+    },
+    {
+      "index": 155,
+      "timestamp": 5.1333,
+      "timestamp_formatted": "00:05.133",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000155.jpg",
+      "filename": "frame_000155.jpg",
+      "second_number": 6,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:05.967"
+    },
+    {
+      "index": 156,
+      "timestamp": 5.1667,
+      "timestamp_formatted": "00:05.167",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000156.jpg",
+      "filename": "frame_000156.jpg",
+      "second_number": 6,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:05.967"
+    },
+    {
+      "index": 157,
+      "timestamp": 5.2,
+      "timestamp_formatted": "00:05.200",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000157.jpg",
+      "filename": "frame_000157.jpg",
+      "second_number": 6,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:05.967"
+    },
+    {
+      "index": 158,
+      "timestamp": 5.2333,
+      "timestamp_formatted": "00:05.233",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000158.jpg",
+      "filename": "frame_000158.jpg",
+      "second_number": 6,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:05.967"
+    },
+    {
+      "index": 159,
+      "timestamp": 5.2667,
+      "timestamp_formatted": "00:05.267",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000159.jpg",
+      "filename": "frame_000159.jpg",
+      "second_number": 6,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:05.967"
+    },
+    {
+      "index": 160,
+      "timestamp": 5.3,
+      "timestamp_formatted": "00:05.300",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000160.jpg",
+      "filename": "frame_000160.jpg",
+      "second_number": 6,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:05.967"
+    },
+    {
+      "index": 161,
+      "timestamp": 5.3333,
+      "timestamp_formatted": "00:05.333",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000161.jpg",
+      "filename": "frame_000161.jpg",
+      "second_number": 6,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:05.967"
+    },
+    {
+      "index": 162,
+      "timestamp": 5.3667,
+      "timestamp_formatted": "00:05.367",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000162.jpg",
+      "filename": "frame_000162.jpg",
+      "second_number": 6,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:05.967"
+    },
+    {
+      "index": 163,
+      "timestamp": 5.4,
+      "timestamp_formatted": "00:05.400",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000163.jpg",
+      "filename": "frame_000163.jpg",
+      "second_number": 6,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:05.967"
+    },
+    {
+      "index": 164,
+      "timestamp": 5.4333,
+      "timestamp_formatted": "00:05.433",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000164.jpg",
+      "filename": "frame_000164.jpg",
+      "second_number": 6,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:05.967"
+    },
+    {
+      "index": 165,
+      "timestamp": 5.4667,
+      "timestamp_formatted": "00:05.467",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000165.jpg",
+      "filename": "frame_000165.jpg",
+      "second_number": 6,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:05.967"
+    },
+    {
+      "index": 166,
+      "timestamp": 5.5,
+      "timestamp_formatted": "00:05.500",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000166.jpg",
+      "filename": "frame_000166.jpg",
+      "second_number": 6,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:05.967"
+    },
+    {
+      "index": 167,
+      "timestamp": 5.5333,
+      "timestamp_formatted": "00:05.533",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000167.jpg",
+      "filename": "frame_000167.jpg",
+      "second_number": 6,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:05.967"
+    },
+    {
+      "index": 168,
+      "timestamp": 5.5667,
+      "timestamp_formatted": "00:05.567",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000168.jpg",
+      "filename": "frame_000168.jpg",
+      "second_number": 6,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:05.967"
+    },
+    {
+      "index": 169,
+      "timestamp": 5.6,
+      "timestamp_formatted": "00:05.600",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000169.jpg",
+      "filename": "frame_000169.jpg",
+      "second_number": 6,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:05.967"
+    },
+    {
+      "index": 170,
+      "timestamp": 5.6333,
+      "timestamp_formatted": "00:05.633",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000170.jpg",
+      "filename": "frame_000170.jpg",
+      "second_number": 6,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:05.967"
+    },
+    {
+      "index": 171,
+      "timestamp": 5.6667,
+      "timestamp_formatted": "00:05.667",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000171.jpg",
+      "filename": "frame_000171.jpg",
+      "second_number": 6,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:05.967"
+    },
+    {
+      "index": 172,
+      "timestamp": 5.7,
+      "timestamp_formatted": "00:05.700",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000172.jpg",
+      "filename": "frame_000172.jpg",
+      "second_number": 6,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:05.967"
+    },
+    {
+      "index": 173,
+      "timestamp": 5.7333,
+      "timestamp_formatted": "00:05.733",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000173.jpg",
+      "filename": "frame_000173.jpg",
+      "second_number": 6,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:05.967"
+    },
+    {
+      "index": 174,
+      "timestamp": 5.7667,
+      "timestamp_formatted": "00:05.767",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000174.jpg",
+      "filename": "frame_000174.jpg",
+      "second_number": 6,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:05.967"
+    },
+    {
+      "index": 175,
+      "timestamp": 5.8,
+      "timestamp_formatted": "00:05.800",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000175.jpg",
+      "filename": "frame_000175.jpg",
+      "second_number": 6,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:05.967"
+    },
+    {
+      "index": 176,
+      "timestamp": 5.8333,
+      "timestamp_formatted": "00:05.833",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000176.jpg",
+      "filename": "frame_000176.jpg",
+      "second_number": 6,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:05.967"
+    },
+    {
+      "index": 177,
+      "timestamp": 5.8667,
+      "timestamp_formatted": "00:05.867",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000177.jpg",
+      "filename": "frame_000177.jpg",
+      "second_number": 6,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:05.967"
+    },
+    {
+      "index": 178,
+      "timestamp": 5.9,
+      "timestamp_formatted": "00:05.900",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000178.jpg",
+      "filename": "frame_000178.jpg",
+      "second_number": 6,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:05.967"
+    },
+    {
+      "index": 179,
+      "timestamp": 5.9333,
+      "timestamp_formatted": "00:05.933",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000179.jpg",
+      "filename": "frame_000179.jpg",
+      "second_number": 6,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:05.967"
+    },
+    {
+      "index": 180,
+      "timestamp": 5.9667,
+      "timestamp_formatted": "00:05.967",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000180.jpg",
+      "filename": "frame_000180.jpg",
+      "second_number": 6,
+      "is_second_keyframe": true,
+      "description": "Visual scene at 00:05.967"
+    },
+    {
+      "index": 181,
+      "timestamp": 6.0,
+      "timestamp_formatted": "00:06.000",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000181.jpg",
+      "filename": "frame_000181.jpg",
+      "second_number": 7,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:06.967"
+    },
+    {
+      "index": 182,
+      "timestamp": 6.0333,
+      "timestamp_formatted": "00:06.033",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000182.jpg",
+      "filename": "frame_000182.jpg",
+      "second_number": 7,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:06.967"
+    },
+    {
+      "index": 183,
+      "timestamp": 6.0667,
+      "timestamp_formatted": "00:06.067",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000183.jpg",
+      "filename": "frame_000183.jpg",
+      "second_number": 7,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:06.967"
+    },
+    {
+      "index": 184,
+      "timestamp": 6.1,
+      "timestamp_formatted": "00:06.100",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000184.jpg",
+      "filename": "frame_000184.jpg",
+      "second_number": 7,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:06.967"
+    },
+    {
+      "index": 185,
+      "timestamp": 6.1333,
+      "timestamp_formatted": "00:06.133",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000185.jpg",
+      "filename": "frame_000185.jpg",
+      "second_number": 7,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:06.967"
+    },
+    {
+      "index": 186,
+      "timestamp": 6.1667,
+      "timestamp_formatted": "00:06.167",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000186.jpg",
+      "filename": "frame_000186.jpg",
+      "second_number": 7,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:06.967"
+    },
+    {
+      "index": 187,
+      "timestamp": 6.2,
+      "timestamp_formatted": "00:06.200",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000187.jpg",
+      "filename": "frame_000187.jpg",
+      "second_number": 7,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:06.967"
+    },
+    {
+      "index": 188,
+      "timestamp": 6.2333,
+      "timestamp_formatted": "00:06.233",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000188.jpg",
+      "filename": "frame_000188.jpg",
+      "second_number": 7,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:06.967"
+    },
+    {
+      "index": 189,
+      "timestamp": 6.2667,
+      "timestamp_formatted": "00:06.267",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000189.jpg",
+      "filename": "frame_000189.jpg",
+      "second_number": 7,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:06.967"
+    },
+    {
+      "index": 190,
+      "timestamp": 6.3,
+      "timestamp_formatted": "00:06.300",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000190.jpg",
+      "filename": "frame_000190.jpg",
+      "second_number": 7,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:06.967"
+    },
+    {
+      "index": 191,
+      "timestamp": 6.3333,
+      "timestamp_formatted": "00:06.333",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000191.jpg",
+      "filename": "frame_000191.jpg",
+      "second_number": 7,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:06.967"
+    },
+    {
+      "index": 192,
+      "timestamp": 6.3667,
+      "timestamp_formatted": "00:06.367",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000192.jpg",
+      "filename": "frame_000192.jpg",
+      "second_number": 7,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:06.967"
+    },
+    {
+      "index": 193,
+      "timestamp": 6.4,
+      "timestamp_formatted": "00:06.400",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000193.jpg",
+      "filename": "frame_000193.jpg",
+      "second_number": 7,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:06.967"
+    },
+    {
+      "index": 194,
+      "timestamp": 6.4333,
+      "timestamp_formatted": "00:06.433",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000194.jpg",
+      "filename": "frame_000194.jpg",
+      "second_number": 7,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:06.967"
+    },
+    {
+      "index": 195,
+      "timestamp": 6.4667,
+      "timestamp_formatted": "00:06.467",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000195.jpg",
+      "filename": "frame_000195.jpg",
+      "second_number": 7,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:06.967"
+    },
+    {
+      "index": 196,
+      "timestamp": 6.5,
+      "timestamp_formatted": "00:06.500",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000196.jpg",
+      "filename": "frame_000196.jpg",
+      "second_number": 7,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:06.967"
+    },
+    {
+      "index": 197,
+      "timestamp": 6.5333,
+      "timestamp_formatted": "00:06.533",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000197.jpg",
+      "filename": "frame_000197.jpg",
+      "second_number": 7,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:06.967"
+    },
+    {
+      "index": 198,
+      "timestamp": 6.5667,
+      "timestamp_formatted": "00:06.567",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000198.jpg",
+      "filename": "frame_000198.jpg",
+      "second_number": 7,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:06.967"
+    },
+    {
+      "index": 199,
+      "timestamp": 6.6,
+      "timestamp_formatted": "00:06.600",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000199.jpg",
+      "filename": "frame_000199.jpg",
+      "second_number": 7,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:06.967"
+    },
+    {
+      "index": 200,
+      "timestamp": 6.6333,
+      "timestamp_formatted": "00:06.633",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000200.jpg",
+      "filename": "frame_000200.jpg",
+      "second_number": 7,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:06.967"
+    },
+    {
+      "index": 201,
+      "timestamp": 6.6667,
+      "timestamp_formatted": "00:06.667",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000201.jpg",
+      "filename": "frame_000201.jpg",
+      "second_number": 7,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:06.967"
+    },
+    {
+      "index": 202,
+      "timestamp": 6.7,
+      "timestamp_formatted": "00:06.700",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000202.jpg",
+      "filename": "frame_000202.jpg",
+      "second_number": 7,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:06.967"
+    },
+    {
+      "index": 203,
+      "timestamp": 6.7333,
+      "timestamp_formatted": "00:06.733",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000203.jpg",
+      "filename": "frame_000203.jpg",
+      "second_number": 7,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:06.967"
+    },
+    {
+      "index": 204,
+      "timestamp": 6.7667,
+      "timestamp_formatted": "00:06.767",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000204.jpg",
+      "filename": "frame_000204.jpg",
+      "second_number": 7,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:06.967"
+    },
+    {
+      "index": 205,
+      "timestamp": 6.8,
+      "timestamp_formatted": "00:06.800",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000205.jpg",
+      "filename": "frame_000205.jpg",
+      "second_number": 7,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:06.967"
+    },
+    {
+      "index": 206,
+      "timestamp": 6.8333,
+      "timestamp_formatted": "00:06.833",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000206.jpg",
+      "filename": "frame_000206.jpg",
+      "second_number": 7,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:06.967"
+    },
+    {
+      "index": 207,
+      "timestamp": 6.8667,
+      "timestamp_formatted": "00:06.867",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000207.jpg",
+      "filename": "frame_000207.jpg",
+      "second_number": 7,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:06.967"
+    },
+    {
+      "index": 208,
+      "timestamp": 6.9,
+      "timestamp_formatted": "00:06.900",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000208.jpg",
+      "filename": "frame_000208.jpg",
+      "second_number": 7,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:06.967"
+    },
+    {
+      "index": 209,
+      "timestamp": 6.9333,
+      "timestamp_formatted": "00:06.933",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000209.jpg",
+      "filename": "frame_000209.jpg",
+      "second_number": 7,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:06.967"
+    },
+    {
+      "index": 210,
+      "timestamp": 6.9667,
+      "timestamp_formatted": "00:06.967",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000210.jpg",
+      "filename": "frame_000210.jpg",
+      "second_number": 7,
+      "is_second_keyframe": true,
+      "description": "Visual scene at 00:06.967"
+    },
+    {
+      "index": 211,
+      "timestamp": 7.0,
+      "timestamp_formatted": "00:07.000",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000211.jpg",
+      "filename": "frame_000211.jpg",
+      "second_number": 8,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:07.967"
+    },
+    {
+      "index": 212,
+      "timestamp": 7.0333,
+      "timestamp_formatted": "00:07.033",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000212.jpg",
+      "filename": "frame_000212.jpg",
+      "second_number": 8,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:07.967"
+    },
+    {
+      "index": 213,
+      "timestamp": 7.0667,
+      "timestamp_formatted": "00:07.067",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000213.jpg",
+      "filename": "frame_000213.jpg",
+      "second_number": 8,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:07.967"
+    },
+    {
+      "index": 214,
+      "timestamp": 7.1,
+      "timestamp_formatted": "00:07.100",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000214.jpg",
+      "filename": "frame_000214.jpg",
+      "second_number": 8,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:07.967"
+    },
+    {
+      "index": 215,
+      "timestamp": 7.1333,
+      "timestamp_formatted": "00:07.133",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000215.jpg",
+      "filename": "frame_000215.jpg",
+      "second_number": 8,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:07.967"
+    },
+    {
+      "index": 216,
+      "timestamp": 7.1667,
+      "timestamp_formatted": "00:07.167",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000216.jpg",
+      "filename": "frame_000216.jpg",
+      "second_number": 8,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:07.967"
+    },
+    {
+      "index": 217,
+      "timestamp": 7.2,
+      "timestamp_formatted": "00:07.200",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000217.jpg",
+      "filename": "frame_000217.jpg",
+      "second_number": 8,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:07.967"
+    },
+    {
+      "index": 218,
+      "timestamp": 7.2333,
+      "timestamp_formatted": "00:07.233",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000218.jpg",
+      "filename": "frame_000218.jpg",
+      "second_number": 8,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:07.967"
+    },
+    {
+      "index": 219,
+      "timestamp": 7.2667,
+      "timestamp_formatted": "00:07.267",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000219.jpg",
+      "filename": "frame_000219.jpg",
+      "second_number": 8,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:07.967"
+    },
+    {
+      "index": 220,
+      "timestamp": 7.3,
+      "timestamp_formatted": "00:07.300",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000220.jpg",
+      "filename": "frame_000220.jpg",
+      "second_number": 8,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:07.967"
+    },
+    {
+      "index": 221,
+      "timestamp": 7.3333,
+      "timestamp_formatted": "00:07.333",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000221.jpg",
+      "filename": "frame_000221.jpg",
+      "second_number": 8,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:07.967"
+    },
+    {
+      "index": 222,
+      "timestamp": 7.3667,
+      "timestamp_formatted": "00:07.367",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000222.jpg",
+      "filename": "frame_000222.jpg",
+      "second_number": 8,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:07.967"
+    },
+    {
+      "index": 223,
+      "timestamp": 7.4,
+      "timestamp_formatted": "00:07.400",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000223.jpg",
+      "filename": "frame_000223.jpg",
+      "second_number": 8,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:07.967"
+    },
+    {
+      "index": 224,
+      "timestamp": 7.4333,
+      "timestamp_formatted": "00:07.433",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000224.jpg",
+      "filename": "frame_000224.jpg",
+      "second_number": 8,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:07.967"
+    },
+    {
+      "index": 225,
+      "timestamp": 7.4667,
+      "timestamp_formatted": "00:07.467",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000225.jpg",
+      "filename": "frame_000225.jpg",
+      "second_number": 8,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:07.967"
+    },
+    {
+      "index": 226,
+      "timestamp": 7.5,
+      "timestamp_formatted": "00:07.500",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000226.jpg",
+      "filename": "frame_000226.jpg",
+      "second_number": 8,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:07.967"
+    },
+    {
+      "index": 227,
+      "timestamp": 7.5333,
+      "timestamp_formatted": "00:07.533",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000227.jpg",
+      "filename": "frame_000227.jpg",
+      "second_number": 8,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:07.967"
+    },
+    {
+      "index": 228,
+      "timestamp": 7.5667,
+      "timestamp_formatted": "00:07.567",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000228.jpg",
+      "filename": "frame_000228.jpg",
+      "second_number": 8,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:07.967"
+    },
+    {
+      "index": 229,
+      "timestamp": 7.6,
+      "timestamp_formatted": "00:07.600",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000229.jpg",
+      "filename": "frame_000229.jpg",
+      "second_number": 8,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:07.967"
+    },
+    {
+      "index": 230,
+      "timestamp": 7.6333,
+      "timestamp_formatted": "00:07.633",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000230.jpg",
+      "filename": "frame_000230.jpg",
+      "second_number": 8,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:07.967"
+    },
+    {
+      "index": 231,
+      "timestamp": 7.6667,
+      "timestamp_formatted": "00:07.667",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000231.jpg",
+      "filename": "frame_000231.jpg",
+      "second_number": 8,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:07.967"
+    },
+    {
+      "index": 232,
+      "timestamp": 7.7,
+      "timestamp_formatted": "00:07.700",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000232.jpg",
+      "filename": "frame_000232.jpg",
+      "second_number": 8,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:07.967"
+    },
+    {
+      "index": 233,
+      "timestamp": 7.7333,
+      "timestamp_formatted": "00:07.733",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000233.jpg",
+      "filename": "frame_000233.jpg",
+      "second_number": 8,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:07.967"
+    },
+    {
+      "index": 234,
+      "timestamp": 7.7667,
+      "timestamp_formatted": "00:07.767",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000234.jpg",
+      "filename": "frame_000234.jpg",
+      "second_number": 8,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:07.967"
+    },
+    {
+      "index": 235,
+      "timestamp": 7.8,
+      "timestamp_formatted": "00:07.800",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000235.jpg",
+      "filename": "frame_000235.jpg",
+      "second_number": 8,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:07.967"
+    },
+    {
+      "index": 236,
+      "timestamp": 7.8333,
+      "timestamp_formatted": "00:07.833",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000236.jpg",
+      "filename": "frame_000236.jpg",
+      "second_number": 8,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:07.967"
+    },
+    {
+      "index": 237,
+      "timestamp": 7.8667,
+      "timestamp_formatted": "00:07.867",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000237.jpg",
+      "filename": "frame_000237.jpg",
+      "second_number": 8,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:07.967"
+    },
+    {
+      "index": 238,
+      "timestamp": 7.9,
+      "timestamp_formatted": "00:07.900",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000238.jpg",
+      "filename": "frame_000238.jpg",
+      "second_number": 8,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:07.967"
+    },
+    {
+      "index": 239,
+      "timestamp": 7.9333,
+      "timestamp_formatted": "00:07.933",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000239.jpg",
+      "filename": "frame_000239.jpg",
+      "second_number": 8,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:07.967"
+    },
+    {
+      "index": 240,
+      "timestamp": 7.9667,
+      "timestamp_formatted": "00:07.967",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000240.jpg",
+      "filename": "frame_000240.jpg",
+      "second_number": 8,
+      "is_second_keyframe": true,
+      "description": "Visual scene at 00:07.967"
+    },
+    {
+      "index": 241,
+      "timestamp": 8.0,
+      "timestamp_formatted": "00:08.000",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000241.jpg",
+      "filename": "frame_000241.jpg",
+      "second_number": 9,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:08.967"
+    },
+    {
+      "index": 242,
+      "timestamp": 8.0333,
+      "timestamp_formatted": "00:08.033",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000242.jpg",
+      "filename": "frame_000242.jpg",
+      "second_number": 9,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:08.967"
+    },
+    {
+      "index": 243,
+      "timestamp": 8.0667,
+      "timestamp_formatted": "00:08.067",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000243.jpg",
+      "filename": "frame_000243.jpg",
+      "second_number": 9,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:08.967"
+    },
+    {
+      "index": 244,
+      "timestamp": 8.1,
+      "timestamp_formatted": "00:08.100",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000244.jpg",
+      "filename": "frame_000244.jpg",
+      "second_number": 9,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:08.967"
+    },
+    {
+      "index": 245,
+      "timestamp": 8.1333,
+      "timestamp_formatted": "00:08.133",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000245.jpg",
+      "filename": "frame_000245.jpg",
+      "second_number": 9,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:08.967"
+    },
+    {
+      "index": 246,
+      "timestamp": 8.1667,
+      "timestamp_formatted": "00:08.167",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000246.jpg",
+      "filename": "frame_000246.jpg",
+      "second_number": 9,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:08.967"
+    },
+    {
+      "index": 247,
+      "timestamp": 8.2,
+      "timestamp_formatted": "00:08.200",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000247.jpg",
+      "filename": "frame_000247.jpg",
+      "second_number": 9,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:08.967"
+    },
+    {
+      "index": 248,
+      "timestamp": 8.2333,
+      "timestamp_formatted": "00:08.233",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000248.jpg",
+      "filename": "frame_000248.jpg",
+      "second_number": 9,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:08.967"
+    },
+    {
+      "index": 249,
+      "timestamp": 8.2667,
+      "timestamp_formatted": "00:08.267",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000249.jpg",
+      "filename": "frame_000249.jpg",
+      "second_number": 9,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:08.967"
+    },
+    {
+      "index": 250,
+      "timestamp": 8.3,
+      "timestamp_formatted": "00:08.300",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000250.jpg",
+      "filename": "frame_000250.jpg",
+      "second_number": 9,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:08.967"
+    },
+    {
+      "index": 251,
+      "timestamp": 8.3333,
+      "timestamp_formatted": "00:08.333",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000251.jpg",
+      "filename": "frame_000251.jpg",
+      "second_number": 9,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:08.967"
+    },
+    {
+      "index": 252,
+      "timestamp": 8.3667,
+      "timestamp_formatted": "00:08.367",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000252.jpg",
+      "filename": "frame_000252.jpg",
+      "second_number": 9,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:08.967"
+    },
+    {
+      "index": 253,
+      "timestamp": 8.4,
+      "timestamp_formatted": "00:08.400",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000253.jpg",
+      "filename": "frame_000253.jpg",
+      "second_number": 9,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:08.967"
+    },
+    {
+      "index": 254,
+      "timestamp": 8.4333,
+      "timestamp_formatted": "00:08.433",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000254.jpg",
+      "filename": "frame_000254.jpg",
+      "second_number": 9,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:08.967"
+    },
+    {
+      "index": 255,
+      "timestamp": 8.4667,
+      "timestamp_formatted": "00:08.467",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000255.jpg",
+      "filename": "frame_000255.jpg",
+      "second_number": 9,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:08.967"
+    },
+    {
+      "index": 256,
+      "timestamp": 8.5,
+      "timestamp_formatted": "00:08.500",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000256.jpg",
+      "filename": "frame_000256.jpg",
+      "second_number": 9,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:08.967"
+    },
+    {
+      "index": 257,
+      "timestamp": 8.5333,
+      "timestamp_formatted": "00:08.533",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000257.jpg",
+      "filename": "frame_000257.jpg",
+      "second_number": 9,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:08.967"
+    },
+    {
+      "index": 258,
+      "timestamp": 8.5667,
+      "timestamp_formatted": "00:08.567",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000258.jpg",
+      "filename": "frame_000258.jpg",
+      "second_number": 9,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:08.967"
+    },
+    {
+      "index": 259,
+      "timestamp": 8.6,
+      "timestamp_formatted": "00:08.600",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000259.jpg",
+      "filename": "frame_000259.jpg",
+      "second_number": 9,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:08.967"
+    },
+    {
+      "index": 260,
+      "timestamp": 8.6333,
+      "timestamp_formatted": "00:08.633",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000260.jpg",
+      "filename": "frame_000260.jpg",
+      "second_number": 9,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:08.967"
+    },
+    {
+      "index": 261,
+      "timestamp": 8.6667,
+      "timestamp_formatted": "00:08.667",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000261.jpg",
+      "filename": "frame_000261.jpg",
+      "second_number": 9,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:08.967"
+    },
+    {
+      "index": 262,
+      "timestamp": 8.7,
+      "timestamp_formatted": "00:08.700",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000262.jpg",
+      "filename": "frame_000262.jpg",
+      "second_number": 9,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:08.967"
+    },
+    {
+      "index": 263,
+      "timestamp": 8.7333,
+      "timestamp_formatted": "00:08.733",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000263.jpg",
+      "filename": "frame_000263.jpg",
+      "second_number": 9,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:08.967"
+    },
+    {
+      "index": 264,
+      "timestamp": 8.7667,
+      "timestamp_formatted": "00:08.767",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000264.jpg",
+      "filename": "frame_000264.jpg",
+      "second_number": 9,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:08.967"
+    },
+    {
+      "index": 265,
+      "timestamp": 8.8,
+      "timestamp_formatted": "00:08.800",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000265.jpg",
+      "filename": "frame_000265.jpg",
+      "second_number": 9,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:08.967"
+    },
+    {
+      "index": 266,
+      "timestamp": 8.8333,
+      "timestamp_formatted": "00:08.833",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000266.jpg",
+      "filename": "frame_000266.jpg",
+      "second_number": 9,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:08.967"
+    },
+    {
+      "index": 267,
+      "timestamp": 8.8667,
+      "timestamp_formatted": "00:08.867",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000267.jpg",
+      "filename": "frame_000267.jpg",
+      "second_number": 9,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:08.967"
+    },
+    {
+      "index": 268,
+      "timestamp": 8.9,
+      "timestamp_formatted": "00:08.900",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000268.jpg",
+      "filename": "frame_000268.jpg",
+      "second_number": 9,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:08.967"
+    },
+    {
+      "index": 269,
+      "timestamp": 8.9333,
+      "timestamp_formatted": "00:08.933",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000269.jpg",
+      "filename": "frame_000269.jpg",
+      "second_number": 9,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:08.967"
+    },
+    {
+      "index": 270,
+      "timestamp": 8.9667,
+      "timestamp_formatted": "00:08.967",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000270.jpg",
+      "filename": "frame_000270.jpg",
+      "second_number": 9,
+      "is_second_keyframe": true,
+      "description": "Visual scene at 00:08.967"
+    },
+    {
+      "index": 271,
+      "timestamp": 9.0,
+      "timestamp_formatted": "00:09.000",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000271.jpg",
+      "filename": "frame_000271.jpg",
+      "second_number": 10,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:09.967"
+    },
+    {
+      "index": 272,
+      "timestamp": 9.0333,
+      "timestamp_formatted": "00:09.033",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000272.jpg",
+      "filename": "frame_000272.jpg",
+      "second_number": 10,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:09.967"
+    },
+    {
+      "index": 273,
+      "timestamp": 9.0667,
+      "timestamp_formatted": "00:09.067",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000273.jpg",
+      "filename": "frame_000273.jpg",
+      "second_number": 10,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:09.967"
+    },
+    {
+      "index": 274,
+      "timestamp": 9.1,
+      "timestamp_formatted": "00:09.100",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000274.jpg",
+      "filename": "frame_000274.jpg",
+      "second_number": 10,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:09.967"
+    },
+    {
+      "index": 275,
+      "timestamp": 9.1333,
+      "timestamp_formatted": "00:09.133",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000275.jpg",
+      "filename": "frame_000275.jpg",
+      "second_number": 10,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:09.967"
+    },
+    {
+      "index": 276,
+      "timestamp": 9.1667,
+      "timestamp_formatted": "00:09.167",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000276.jpg",
+      "filename": "frame_000276.jpg",
+      "second_number": 10,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:09.967"
+    },
+    {
+      "index": 277,
+      "timestamp": 9.2,
+      "timestamp_formatted": "00:09.200",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000277.jpg",
+      "filename": "frame_000277.jpg",
+      "second_number": 10,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:09.967"
+    },
+    {
+      "index": 278,
+      "timestamp": 9.2333,
+      "timestamp_formatted": "00:09.233",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000278.jpg",
+      "filename": "frame_000278.jpg",
+      "second_number": 10,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:09.967"
+    },
+    {
+      "index": 279,
+      "timestamp": 9.2667,
+      "timestamp_formatted": "00:09.267",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000279.jpg",
+      "filename": "frame_000279.jpg",
+      "second_number": 10,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:09.967"
+    },
+    {
+      "index": 280,
+      "timestamp": 9.3,
+      "timestamp_formatted": "00:09.300",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000280.jpg",
+      "filename": "frame_000280.jpg",
+      "second_number": 10,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:09.967"
+    },
+    {
+      "index": 281,
+      "timestamp": 9.3333,
+      "timestamp_formatted": "00:09.333",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000281.jpg",
+      "filename": "frame_000281.jpg",
+      "second_number": 10,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:09.967"
+    },
+    {
+      "index": 282,
+      "timestamp": 9.3667,
+      "timestamp_formatted": "00:09.367",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000282.jpg",
+      "filename": "frame_000282.jpg",
+      "second_number": 10,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:09.967"
+    },
+    {
+      "index": 283,
+      "timestamp": 9.4,
+      "timestamp_formatted": "00:09.400",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000283.jpg",
+      "filename": "frame_000283.jpg",
+      "second_number": 10,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:09.967"
+    },
+    {
+      "index": 284,
+      "timestamp": 9.4333,
+      "timestamp_formatted": "00:09.433",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000284.jpg",
+      "filename": "frame_000284.jpg",
+      "second_number": 10,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:09.967"
+    },
+    {
+      "index": 285,
+      "timestamp": 9.4667,
+      "timestamp_formatted": "00:09.467",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000285.jpg",
+      "filename": "frame_000285.jpg",
+      "second_number": 10,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:09.967"
+    },
+    {
+      "index": 286,
+      "timestamp": 9.5,
+      "timestamp_formatted": "00:09.500",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000286.jpg",
+      "filename": "frame_000286.jpg",
+      "second_number": 10,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:09.967"
+    },
+    {
+      "index": 287,
+      "timestamp": 9.5333,
+      "timestamp_formatted": "00:09.533",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000287.jpg",
+      "filename": "frame_000287.jpg",
+      "second_number": 10,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:09.967"
+    },
+    {
+      "index": 288,
+      "timestamp": 9.5667,
+      "timestamp_formatted": "00:09.567",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000288.jpg",
+      "filename": "frame_000288.jpg",
+      "second_number": 10,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:09.967"
+    },
+    {
+      "index": 289,
+      "timestamp": 9.6,
+      "timestamp_formatted": "00:09.600",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000289.jpg",
+      "filename": "frame_000289.jpg",
+      "second_number": 10,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:09.967"
+    },
+    {
+      "index": 290,
+      "timestamp": 9.6333,
+      "timestamp_formatted": "00:09.633",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000290.jpg",
+      "filename": "frame_000290.jpg",
+      "second_number": 10,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:09.967"
+    },
+    {
+      "index": 291,
+      "timestamp": 9.6667,
+      "timestamp_formatted": "00:09.667",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000291.jpg",
+      "filename": "frame_000291.jpg",
+      "second_number": 10,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:09.967"
+    },
+    {
+      "index": 292,
+      "timestamp": 9.7,
+      "timestamp_formatted": "00:09.700",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000292.jpg",
+      "filename": "frame_000292.jpg",
+      "second_number": 10,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:09.967"
+    },
+    {
+      "index": 293,
+      "timestamp": 9.7333,
+      "timestamp_formatted": "00:09.733",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000293.jpg",
+      "filename": "frame_000293.jpg",
+      "second_number": 10,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:09.967"
+    },
+    {
+      "index": 294,
+      "timestamp": 9.7667,
+      "timestamp_formatted": "00:09.767",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000294.jpg",
+      "filename": "frame_000294.jpg",
+      "second_number": 10,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:09.967"
+    },
+    {
+      "index": 295,
+      "timestamp": 9.8,
+      "timestamp_formatted": "00:09.800",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000295.jpg",
+      "filename": "frame_000295.jpg",
+      "second_number": 10,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:09.967"
+    },
+    {
+      "index": 296,
+      "timestamp": 9.8333,
+      "timestamp_formatted": "00:09.833",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000296.jpg",
+      "filename": "frame_000296.jpg",
+      "second_number": 10,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:09.967"
+    },
+    {
+      "index": 297,
+      "timestamp": 9.8667,
+      "timestamp_formatted": "00:09.867",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000297.jpg",
+      "filename": "frame_000297.jpg",
+      "second_number": 10,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:09.967"
+    },
+    {
+      "index": 298,
+      "timestamp": 9.9,
+      "timestamp_formatted": "00:09.900",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000298.jpg",
+      "filename": "frame_000298.jpg",
+      "second_number": 10,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:09.967"
+    },
+    {
+      "index": 299,
+      "timestamp": 9.9333,
+      "timestamp_formatted": "00:09.933",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000299.jpg",
+      "filename": "frame_000299.jpg",
+      "second_number": 10,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:09.967"
+    },
+    {
+      "index": 300,
+      "timestamp": 9.9667,
+      "timestamp_formatted": "00:09.967",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000300.jpg",
+      "filename": "frame_000300.jpg",
+      "second_number": 10,
+      "is_second_keyframe": true,
+      "description": "Visual scene at 00:09.967"
+    },
+    {
+      "index": 301,
+      "timestamp": 10.0,
+      "timestamp_formatted": "00:10.000",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000301.jpg",
+      "filename": "frame_000301.jpg",
+      "second_number": 11,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:10.967"
+    },
+    {
+      "index": 302,
+      "timestamp": 10.0333,
+      "timestamp_formatted": "00:10.033",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000302.jpg",
+      "filename": "frame_000302.jpg",
+      "second_number": 11,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:10.967"
+    },
+    {
+      "index": 303,
+      "timestamp": 10.0667,
+      "timestamp_formatted": "00:10.067",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000303.jpg",
+      "filename": "frame_000303.jpg",
+      "second_number": 11,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:10.967"
+    },
+    {
+      "index": 304,
+      "timestamp": 10.1,
+      "timestamp_formatted": "00:10.100",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000304.jpg",
+      "filename": "frame_000304.jpg",
+      "second_number": 11,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:10.967"
+    },
+    {
+      "index": 305,
+      "timestamp": 10.1333,
+      "timestamp_formatted": "00:10.133",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000305.jpg",
+      "filename": "frame_000305.jpg",
+      "second_number": 11,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:10.967"
+    },
+    {
+      "index": 306,
+      "timestamp": 10.1667,
+      "timestamp_formatted": "00:10.167",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000306.jpg",
+      "filename": "frame_000306.jpg",
+      "second_number": 11,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:10.967"
+    },
+    {
+      "index": 307,
+      "timestamp": 10.2,
+      "timestamp_formatted": "00:10.200",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000307.jpg",
+      "filename": "frame_000307.jpg",
+      "second_number": 11,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:10.967"
+    },
+    {
+      "index": 308,
+      "timestamp": 10.2333,
+      "timestamp_formatted": "00:10.233",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000308.jpg",
+      "filename": "frame_000308.jpg",
+      "second_number": 11,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:10.967"
+    },
+    {
+      "index": 309,
+      "timestamp": 10.2667,
+      "timestamp_formatted": "00:10.267",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000309.jpg",
+      "filename": "frame_000309.jpg",
+      "second_number": 11,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:10.967"
+    },
+    {
+      "index": 310,
+      "timestamp": 10.3,
+      "timestamp_formatted": "00:10.300",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000310.jpg",
+      "filename": "frame_000310.jpg",
+      "second_number": 11,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:10.967"
+    },
+    {
+      "index": 311,
+      "timestamp": 10.3333,
+      "timestamp_formatted": "00:10.333",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000311.jpg",
+      "filename": "frame_000311.jpg",
+      "second_number": 11,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:10.967"
+    },
+    {
+      "index": 312,
+      "timestamp": 10.3667,
+      "timestamp_formatted": "00:10.367",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000312.jpg",
+      "filename": "frame_000312.jpg",
+      "second_number": 11,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:10.967"
+    },
+    {
+      "index": 313,
+      "timestamp": 10.4,
+      "timestamp_formatted": "00:10.400",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000313.jpg",
+      "filename": "frame_000313.jpg",
+      "second_number": 11,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:10.967"
+    },
+    {
+      "index": 314,
+      "timestamp": 10.4333,
+      "timestamp_formatted": "00:10.433",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000314.jpg",
+      "filename": "frame_000314.jpg",
+      "second_number": 11,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:10.967"
+    },
+    {
+      "index": 315,
+      "timestamp": 10.4667,
+      "timestamp_formatted": "00:10.467",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000315.jpg",
+      "filename": "frame_000315.jpg",
+      "second_number": 11,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:10.967"
+    },
+    {
+      "index": 316,
+      "timestamp": 10.5,
+      "timestamp_formatted": "00:10.500",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000316.jpg",
+      "filename": "frame_000316.jpg",
+      "second_number": 11,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:10.967"
+    },
+    {
+      "index": 317,
+      "timestamp": 10.5333,
+      "timestamp_formatted": "00:10.533",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000317.jpg",
+      "filename": "frame_000317.jpg",
+      "second_number": 11,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:10.967"
+    },
+    {
+      "index": 318,
+      "timestamp": 10.5667,
+      "timestamp_formatted": "00:10.567",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000318.jpg",
+      "filename": "frame_000318.jpg",
+      "second_number": 11,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:10.967"
+    },
+    {
+      "index": 319,
+      "timestamp": 10.6,
+      "timestamp_formatted": "00:10.600",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000319.jpg",
+      "filename": "frame_000319.jpg",
+      "second_number": 11,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:10.967"
+    },
+    {
+      "index": 320,
+      "timestamp": 10.6333,
+      "timestamp_formatted": "00:10.633",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000320.jpg",
+      "filename": "frame_000320.jpg",
+      "second_number": 11,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:10.967"
+    },
+    {
+      "index": 321,
+      "timestamp": 10.6667,
+      "timestamp_formatted": "00:10.667",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000321.jpg",
+      "filename": "frame_000321.jpg",
+      "second_number": 11,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:10.967"
+    },
+    {
+      "index": 322,
+      "timestamp": 10.7,
+      "timestamp_formatted": "00:10.700",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000322.jpg",
+      "filename": "frame_000322.jpg",
+      "second_number": 11,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:10.967"
+    },
+    {
+      "index": 323,
+      "timestamp": 10.7333,
+      "timestamp_formatted": "00:10.733",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000323.jpg",
+      "filename": "frame_000323.jpg",
+      "second_number": 11,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:10.967"
+    },
+    {
+      "index": 324,
+      "timestamp": 10.7667,
+      "timestamp_formatted": "00:10.767",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000324.jpg",
+      "filename": "frame_000324.jpg",
+      "second_number": 11,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:10.967"
+    },
+    {
+      "index": 325,
+      "timestamp": 10.8,
+      "timestamp_formatted": "00:10.800",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000325.jpg",
+      "filename": "frame_000325.jpg",
+      "second_number": 11,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:10.967"
+    },
+    {
+      "index": 326,
+      "timestamp": 10.8333,
+      "timestamp_formatted": "00:10.833",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000326.jpg",
+      "filename": "frame_000326.jpg",
+      "second_number": 11,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:10.967"
+    },
+    {
+      "index": 327,
+      "timestamp": 10.8667,
+      "timestamp_formatted": "00:10.867",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000327.jpg",
+      "filename": "frame_000327.jpg",
+      "second_number": 11,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:10.967"
+    },
+    {
+      "index": 328,
+      "timestamp": 10.9,
+      "timestamp_formatted": "00:10.900",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000328.jpg",
+      "filename": "frame_000328.jpg",
+      "second_number": 11,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:10.967"
+    },
+    {
+      "index": 329,
+      "timestamp": 10.9333,
+      "timestamp_formatted": "00:10.933",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000329.jpg",
+      "filename": "frame_000329.jpg",
+      "second_number": 11,
+      "is_second_keyframe": false,
+      "description": "Visual scene at 00:10.967"
+    },
+    {
+      "index": 330,
+      "timestamp": 10.9667,
+      "timestamp_formatted": "00:10.967",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000330.jpg",
+      "filename": "frame_000330.jpg",
+      "second_number": 11,
+      "is_second_keyframe": true,
+      "description": "Visual scene at 00:10.967"
+    }
+  ],
+  "second_keyframes": [
+    {
+      "index": 30,
+      "timestamp": 0.9667,
+      "timestamp_formatted": "00:00.967",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000030.jpg",
+      "filename": "frame_000030.jpg",
+      "is_second_keyframe": true,
+      "second_number": 1,
+      "chunk_start_idx": 0,
+      "chunk_end_idx": 29,
+      "frames_in_second": 30,
+      "description": "Visual scene at 00:00.967",
+      "frame_path": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000030.jpg",
+      "model_used": "qwen3.5:9b-mlx"
+    },
+    {
+      "index": 60,
+      "timestamp": 1.9667,
+      "timestamp_formatted": "00:01.967",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000060.jpg",
+      "filename": "frame_000060.jpg",
+      "is_second_keyframe": true,
+      "second_number": 2,
+      "chunk_start_idx": 30,
+      "chunk_end_idx": 59,
+      "frames_in_second": 30,
+      "description": "Visual scene at 00:01.967",
+      "frame_path": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000060.jpg",
+      "model_used": "qwen3.5:9b-mlx"
+    },
+    {
+      "index": 90,
+      "timestamp": 2.9667,
+      "timestamp_formatted": "00:02.967",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000090.jpg",
+      "filename": "frame_000090.jpg",
+      "is_second_keyframe": true,
+      "second_number": 3,
+      "chunk_start_idx": 60,
+      "chunk_end_idx": 89,
+      "frames_in_second": 30,
+      "description": "Visual scene at 00:02.967",
+      "frame_path": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000090.jpg",
+      "model_used": "qwen3.5:9b-mlx"
+    },
+    {
+      "index": 120,
+      "timestamp": 3.9667,
+      "timestamp_formatted": "00:03.967",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000120.jpg",
+      "filename": "frame_000120.jpg",
+      "is_second_keyframe": true,
+      "second_number": 4,
+      "chunk_start_idx": 90,
+      "chunk_end_idx": 119,
+      "frames_in_second": 30,
+      "description": "Visual scene at 00:03.967",
+      "frame_path": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000120.jpg",
+      "model_used": "qwen3.5:9b-mlx"
+    },
+    {
+      "index": 150,
+      "timestamp": 4.9667,
+      "timestamp_formatted": "00:04.967",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000150.jpg",
+      "filename": "frame_000150.jpg",
+      "is_second_keyframe": true,
+      "second_number": 5,
+      "chunk_start_idx": 120,
+      "chunk_end_idx": 149,
+      "frames_in_second": 30,
+      "description": "Visual scene at 00:04.967",
+      "frame_path": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000150.jpg",
+      "model_used": "qwen3.5:9b-mlx"
+    },
+    {
+      "index": 180,
+      "timestamp": 5.9667,
+      "timestamp_formatted": "00:05.967",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000180.jpg",
+      "filename": "frame_000180.jpg",
+      "is_second_keyframe": true,
+      "second_number": 6,
+      "chunk_start_idx": 150,
+      "chunk_end_idx": 179,
+      "frames_in_second": 30,
+      "description": "Visual scene at 00:05.967",
+      "frame_path": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000180.jpg",
+      "model_used": "qwen3.5:9b-mlx"
+    },
+    {
+      "index": 210,
+      "timestamp": 6.9667,
+      "timestamp_formatted": "00:06.967",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000210.jpg",
+      "filename": "frame_000210.jpg",
+      "is_second_keyframe": true,
+      "second_number": 7,
+      "chunk_start_idx": 180,
+      "chunk_end_idx": 209,
+      "frames_in_second": 30,
+      "description": "Visual scene at 00:06.967",
+      "frame_path": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000210.jpg",
+      "model_used": "qwen3.5:9b-mlx"
+    },
+    {
+      "index": 240,
+      "timestamp": 7.9667,
+      "timestamp_formatted": "00:07.967",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000240.jpg",
+      "filename": "frame_000240.jpg",
+      "is_second_keyframe": true,
+      "second_number": 8,
+      "chunk_start_idx": 210,
+      "chunk_end_idx": 239,
+      "frames_in_second": 30,
+      "description": "Visual scene at 00:07.967",
+      "frame_path": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000240.jpg",
+      "model_used": "qwen3.5:9b-mlx"
+    },
+    {
+      "index": 270,
+      "timestamp": 8.9667,
+      "timestamp_formatted": "00:08.967",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000270.jpg",
+      "filename": "frame_000270.jpg",
+      "is_second_keyframe": true,
+      "second_number": 9,
+      "chunk_start_idx": 240,
+      "chunk_end_idx": 269,
+      "frames_in_second": 30,
+      "description": "Visual scene at 00:08.967",
+      "frame_path": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000270.jpg",
+      "model_used": "qwen3.5:9b-mlx"
+    },
+    {
+      "index": 300,
+      "timestamp": 9.9667,
+      "timestamp_formatted": "00:09.967",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000300.jpg",
+      "filename": "frame_000300.jpg",
+      "is_second_keyframe": true,
+      "second_number": 10,
+      "chunk_start_idx": 270,
+      "chunk_end_idx": 299,
+      "frames_in_second": 30,
+      "description": "Visual scene at 00:09.967",
+      "frame_path": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000300.jpg",
+      "model_used": "qwen3.5:9b-mlx"
+    },
+    {
+      "index": 330,
+      "timestamp": 10.9667,
+      "timestamp_formatted": "00:10.967",
+      "filepath": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000330.jpg",
+      "filename": "frame_000330.jpg",
+      "is_second_keyframe": true,
+      "second_number": 11,
+      "chunk_start_idx": 300,
+      "chunk_end_idx": 329,
+      "frames_in_second": 30,
+      "description": "Visual scene at 00:10.967",
+      "frame_path": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000330.jpg",
+      "model_used": "qwen3.5:9b-mlx"
     }
   ],
   "timeline_blocks": [
     {
       "window_index": 1,
       "start_sec": 0.0,
-      "end_sec": 20.0,
+      "end_sec": 15.0,
       "start_timestamp": "00:00.000",
-      "end_timestamp": "00:20.000",
+      "end_timestamp": "00:15.000",
       "dialogue": "And so my fellow Americans, ask not what your country can do for you, ask what you can do for your country.",
-      "visual_summary": "[00:00.000] Visual frame at 00:00.000 | [00:05.000] Visual frame at 00:05.000",
+      "visual_summary": "Visual scene active",
       "keyframes": [
         {
-          "timestamp": 0.0,
-          "timestamp_formatted": "00:00.000",
-          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/speech_sample/frame_0001.jpg",
-          "filename": "frame_0001.jpg"
+          "timestamp": 0.9667,
+          "timestamp_formatted": "00:00.967",
+          "frame_path": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000030.jpg",
+          "filename": "frame_000030.jpg",
+          "description": "Visual scene at 00:00.967",
+          "is_second_keyframe": true
         },
         {
-          "timestamp": 5.0,
-          "timestamp_formatted": "00:05.000",
-          "frame_path": "/Users/vikasmourya/ai-models/video-trans/data/frames/speech_sample/frame_0002.jpg",
-          "filename": "frame_0002.jpg"
+          "timestamp": 1.9667,
+          "timestamp_formatted": "00:01.967",
+          "frame_path": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000060.jpg",
+          "filename": "frame_000060.jpg",
+          "description": "Visual scene at 00:01.967",
+          "is_second_keyframe": true
+        },
+        {
+          "timestamp": 2.9667,
+          "timestamp_formatted": "00:02.967",
+          "frame_path": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000090.jpg",
+          "filename": "frame_000090.jpg",
+          "description": "Visual scene at 00:02.967",
+          "is_second_keyframe": true
+        },
+        {
+          "timestamp": 3.9667,
+          "timestamp_formatted": "00:03.967",
+          "frame_path": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000120.jpg",
+          "filename": "frame_000120.jpg",
+          "description": "Visual scene at 00:03.967",
+          "is_second_keyframe": true
+        },
+        {
+          "timestamp": 4.9667,
+          "timestamp_formatted": "00:04.967",
+          "frame_path": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000150.jpg",
+          "filename": "frame_000150.jpg",
+          "description": "Visual scene at 00:04.967",
+          "is_second_keyframe": true
+        },
+        {
+          "timestamp": 5.9667,
+          "timestamp_formatted": "00:05.967",
+          "frame_path": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000180.jpg",
+          "filename": "frame_000180.jpg",
+          "description": "Visual scene at 00:05.967",
+          "is_second_keyframe": true
+        },
+        {
+          "timestamp": 6.9667,
+          "timestamp_formatted": "00:06.967",
+          "frame_path": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000210.jpg",
+          "filename": "frame_000210.jpg",
+          "description": "Visual scene at 00:06.967",
+          "is_second_keyframe": true
+        },
+        {
+          "timestamp": 7.9667,
+          "timestamp_formatted": "00:07.967",
+          "frame_path": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000240.jpg",
+          "filename": "frame_000240.jpg",
+          "description": "Visual scene at 00:07.967",
+          "is_second_keyframe": true
+        },
+        {
+          "timestamp": 8.9667,
+          "timestamp_formatted": "00:08.967",
+          "frame_path": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000270.jpg",
+          "filename": "frame_000270.jpg",
+          "description": "Visual scene at 00:08.967",
+          "is_second_keyframe": true
+        },
+        {
+          "timestamp": 9.9667,
+          "timestamp_formatted": "00:09.967",
+          "frame_path": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000300.jpg",
+          "filename": "frame_000300.jpg",
+          "description": "Visual scene at 00:09.967",
+          "is_second_keyframe": true
+        },
+        {
+          "timestamp": 10.9667,
+          "timestamp_formatted": "00:10.967",
+          "frame_path": "/Users/vikasmourya/ai-models/gemma-vision-ai/data/frames/speech_sample/frame_000330.jpg",
+          "filename": "frame_000330.jpg",
+          "description": "Visual scene at 00:10.967",
+          "is_second_keyframe": true
         }
       ]
     }
   ],
-  "context_prompt": "VIDEO METADATA:\n- Title / File: speech_sample.mp4\n- Total Duration: 00:11.000 (11.0s)\n- Resolution: 1280x720 @ 30.0 FPS\n\nSYNCHRONIZED AUDIO & VISUAL TIMELINE:\n[00:00.000 -> 00:20.000]\n  \u2022 Visual: [00:00.000] Visual frame at 00:00.000 | [00:05.000] Visual frame at 00:05.000\n  \u2022 Spoken Dialogue: And so my fellow Americans, ask not what your country can do for you, ask what you can do for your country.\n\nCOMPLETE AUDIO TRANSCRIPTION EXCERPT:\nAnd so my fellow Americans, ask not what your country can do for you, ask what you can do for your country.",
+  "context_prompt": "VIDEO METADATA:\n- Title / File: speech_sample.mp4\n- Total Duration: 00:11.000 (11.0s)\n- Resolution: 1280x720 @ 30.0 FPS\n\nSYNCHRONIZED AUDIO & VISUAL TIMELINE:\n[00:00.000 -> 00:15.000]\n  \u2022 Visual: Visual scene active\n  \u2022 Spoken Dialogue: And so my fellow Americans, ask not what your country can do for you, ask what you can do for your country.\n\nCOMPLETE AUDIO TRANSCRIPTION EXCERPT:\nAnd so my fellow Americans, ask not what your country can do for you, ask what you can do for your country.",
   "gemma_analysis": {
     "status": "success",
     "model": "gemma4:12b-mlx",
-    "report_markdown": "### 1. \ud83d\udccc Executive Summary\nThis video is a concise, high-impact historical clip featuring one of the most famous rhetorical appeals in American history. It captures a pivotal moment of a speech where the speaker addresses the citizenry, pivoting from a focus on individual entitlement to a call for collective civic duty and personal responsibility.\n\nThe core purpose of the video is to inspire patriotism and encourage individuals to contribute to the betterment of their nation. Given the iconic nature of the quote, the video serves as a foundational piece of political and social rhetoric, emphasizing the importance of service and volunteerism in a democratic society.\n\n### 2. \ud83c\udfac Scene-by-Scene Timeline Breakdown\nDue to the short duration of the clip (11 seconds), the video functions as a single continuous scene:\n\n*   **[00:00 - 00:11] The Call to Civic Duty**\n    *   **What is happening:** The speaker delivers a powerful, rhythmic call to action. The audio captures the famous \"ask not\" exhortation, where the speaker challenges the audience to shift their perspective from seeking personal gain from the government to seeking ways to serve the country.\n\n### 3. \ud83d\udd0d Key Visual Elements & On-Screen Content\n*   **Subject:** While the specific visual description is limited to timestamps, the audio identifies the subject as a prominent historical figure (implied to be John F. Kennedy) delivering a formal address.\n*   **Setting:** Based on the context of the speech, the setting is a formal podium or public speaking engagement.\n*   **Visual Cues:** The visual frames at `00:00.000` and `00:05.000` capture the speaker's delivery, likely showing a steady, authoritative presence to match the gravity of the spoken words.\n\n### 4. \ud83c\udf99\ufe0f Key Audio Topics & Spoken Highlights\n*   **Core Theme:** Individual Responsibility vs. State Provision.\n*   **Spoken Highlight:** *\"And so my fellow Americans, ask not what your country can do for you, ask what you can do for your country.\"*\n*   **Rhetorical Style:** The speech utilizes **Antimetabole** (repeating a phrase in reverse order) to create a memorable and persuasive contrast between \"what the country can do for you\" and \"what you can do for your country.\"\n\n### 5. \ud83d\udca1 Key Takeaways & Summary Points\n*   **Shift in Perspective:** The primary message is a call to move from a passive, consumerist relationship with the state to an active, participatory role in society.\n*   **Civic Virtue:** The video highlights the importance of volunteerism, service, and personal contribution to the national interest.\n*   **Historical Significance:** This specific quote remains a cornerstone of American political rhetoric, symbolizing the ideals of the \"Greatest Generation\" and the responsibilities of citizenship.\n*   **Call to Action:** The video serves as a direct challenge to the viewer to identify personal ways to contribute to the community and country."
+    "report_markdown": "### 1. \ud83d\udccc Executive Summary\nThis video features a brief, iconic excerpt from one of the most famous speeches in American history: John F. Kennedy's Inaugural Address. The clip captures a pivotal moment of rhetorical power where the speaker calls upon the citizenry to shift their perspective from individual entitlement to collective responsibility.\n\nThe core purpose of this specific segment is to inspire a sense of civic duty and patriotism. By highlighting the importance of personal contribution to the nation, the video serves as a foundational piece of political and social rhetoric, emphasizing that the strength of a country relies on the active participation and service of its people.\n\n### 2. \ud83c\udfac Scene-by-Scene Timeline Breakdown\n| Timestamp range | Scene Title | What is happening |\n| :--- | :--- | :--- |\n| **[00:00 - 00:11]** | **The Call to Civic Duty** | The speaker delivers the climactic portion of the Inaugural Address. The audio captures the famous exhortation for citizens to serve their country rather than seeking personal gain from it. The visual remains active throughout the duration of the speech. |\n\n### 3. \ud83d\udd0d Key Visual Elements & On-Screen Content\n*   **Subject:** The video features a historical figure (John F. Kennedy) delivering a formal address.\n*   **Setting:** A formal, public speaking environment (implied by the context of an Inaugural Address).\n*   **Visual Cues:** The footage is presented in a standard 1280x720 resolution, capturing the historical archival aesthetic of the 1960s.\n*   **On-Screen Text:** No specific text overlays or graphics are present; the focus is entirely on the speaker's delivery and the historical footage.\n\n### 4. \ud83c\udf99\ufe0f Key Audio Topics & Spoken Highlights\n*   **Theme of Service:** The primary theme is the transition from a \"receiver\" mindset to a \"contributor\" mindset.\n*   **Civic Responsibility:** The speaker highlights the duty of the individual to the state.\n*   **Spoken Highlight:** *\"And so my fellow Americans, ask not what your country can do for you, ask what you can do for your country.\"* This is the central thesis of the clip, emphasizing self-sacrifice and communal effort.\n\n### 5. \ud83d\udca1 Key Takeaways & Summary Points\n*   **Shift in Perspective:** The core message encourages individuals to look beyond their own needs and consider how they can contribute to the greater good of society.\n*   **Historical Significance:** This specific quote remains a cornerstone of American political rhetoric, symbolizing the ideals of volunteerism and public service.\n*   **Call to Action:** The video serves as a powerful \"call to action,\" urging the audience to take an active role in building and maintaining their country."
   },
-  "elapsed_seconds": 82.5
+  "elapsed_seconds": 314.2
 }

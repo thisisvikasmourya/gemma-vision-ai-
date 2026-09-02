@@ -3,7 +3,7 @@ import logging
 from typing import Any, Dict, Generator, List, Optional
 import requests
 
-from app.config import DEFAULT_LLM_MODEL, OLLAMA_BASE_URL
+from app.config import DEFAULT_LLM_MODEL, LLM_TIMEOUT, OLLAMA_BASE_URL
 
 logger = logging.getLogger(__name__)
 
@@ -11,14 +11,20 @@ logger = logging.getLogger(__name__)
 class GemmaVideoExplainer:
     """Uses local Gemma 4 12B model via Ollama to analyze and explain video contents."""
 
-    def __init__(self, base_url: str = OLLAMA_BASE_URL, model_name: str = DEFAULT_LLM_MODEL):
+    def __init__(
+        self,
+        base_url: str = OLLAMA_BASE_URL,
+        model_name: str = DEFAULT_LLM_MODEL,
+        timeout: int = LLM_TIMEOUT,
+    ):
         self.base_url = base_url.rstrip("/")
         self.model = model_name
+        self.timeout = timeout
 
     def check_connection(self) -> bool:
         """Verify Ollama server is running and reachable."""
         try:
-            r = requests.get(f"{self.base_url}/api/tags", timeout=3)
+            r = requests.get(f"{self.base_url}/api/tags", timeout=5)
             return r.status_code == 200
         except Exception:
             return False
@@ -72,7 +78,7 @@ Break down the video into key timestamped segments. For each segment, provide:
                         "top_p": 0.9,
                     },
                 },
-                timeout=180,
+                timeout=self.timeout,
             )
 
             if response.status_code == 200:
@@ -135,7 +141,7 @@ Please provide a direct, helpful, and accurate response. When referencing events
                         "temperature": 0.4,
                     },
                 },
-                timeout=90,
+                timeout=self.timeout,
             )
             if response.status_code == 200:
                 return response.json().get("response", "").strip()

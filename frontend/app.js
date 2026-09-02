@@ -39,6 +39,10 @@ const gemmaReportContainer = document.getElementById('gemmaReportContainer');
 const transcriptList = document.getElementById('transcriptList');
 const transcriptSearch = document.getElementById('transcriptSearch');
 const framesGrid = document.getElementById('framesGrid');
+const frameRateFilter = document.getElementById('frameRateFilter');
+const frameTimeSearch = document.getElementById('frameTimeSearch');
+const framesCountLabel = document.getElementById('framesCountLabel');
+const currentFrameScrub = document.getElementById('currentFrameScrub');
 
 const chatMessages = document.getElementById('chatMessages');
 const chatForm = document.getElementById('chatForm');
@@ -55,6 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
   setupDropzone();
   setupChat();
   setupVideoPlayerSync();
+  setupFrameControls();
   loadVideoList();
 
   refreshVideosBtn.addEventListener('click', loadVideoList);
@@ -372,41 +377,204 @@ function filterTranscripts() {
   });
 }
 
-// Render Visual Frames Gallery
+// 30 FPS Frame Inspector State & Logic
+let rawFramesList = [];
+let filteredFramesList = [];
+let currentFrameStep = 1; // 1 = 30 FPS, 30 = 1 FPS, 150 = 5s
+let displayedFramesLimit = 120;
+
+function setupFrameControls() {
+  if (frameRateFilter) {
+    const btns = frameRateFilter.querySelectorAll('.pill-btn');
+    btns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        btns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        currentFrameStep = parseInt(btn.dataset.step, 10) || 1;
+        applyFrameFilters();
+      });
+    });
+  }
+
+  if (frameTimeSearch) {
+    frameTimeSearch.addEventListener('input', () => {
+      applyFrameFilters();
+    });
+  }
+}
+
 function renderFrames(frames) {
-  if (!frames.length) {
-    framesGrid.innerHTML = '<p style="color: var(--text-muted); padding: 1rem;">No keyframes extracted.</p>';
+  rawFramesList = frames || [];
+  applyFrameFilters();
+}
+
+function parseTimeToSeconds(str) {
+  if (!str) return null;
+  str = str.trim();
+  if (str.includes(':')) {
+    const parts = str.split(':').map(Number);
+    if (parts.length === 2 && !isNaN(parts[0]) && !isNaN(parts[1])) {
+      return parts[0] * 60 + parts[1];
+    } else if (parts.length === 3 && !isNaN(parts[0]) && !isNaN(parts[1]) && !isNaN(parts[2])) {
+      return parts[0] * 3600 + parts[1] * 60 + parts[2];
+    }
+  }
+  const num = parseFloat(str);
+  return isNaN(num) ? null : num;
+}
+
+function applyFrameFilters() {
+  if (!rawFramesList.length) {
+    framesGrid.innerHTML = '<p style="color: var(--text-muted); padding: 1.5rem;">No visual frames extracted.</p>';
+    if (framesCountLabel) framesCountLabel.innerText = '0 frames';
     return;
   }
 
-  framesGrid.innerHTML = frames.map(f => `
-    <div class="frame-item" onclick="seekTo(${f.timestamp})">
-      <img class="frame-thumb" src="/media/frames/${currentVideoId}/${f.filename}" alt="Frame at ${f.timestamp_formatted}" loading="lazy">
-      <div class="frame-caption">
-        <span>⏱️ ${f.timestamp_formatted}</span>
-        <span style="color: var(--primary)">Seek ↗</span>
-      </div>
-    </div>
-  `).join('');
+  // 1. Step downsampling
+  let result = [];
+  for (let i = 0; i < rawFramesList.length; i += currentFrameStep) {
+    result.push(rawFramesList[i]);
+  }
+
+  // 2. Search filtering
+  const query = frameTimeSearch ? frameTimeSearch.value.trim() : '';
+  if (query) {
+    const searchSec = parseTimeToSeconds(query);
+    if (searchSec !== null) {
+      // Find frames within +/- 10 seconds of searched timestamp
+      result = result.filter(f => Math.abs(f.timestamp - searchSec) <= 15.0);
+    } else {
+      const qLower = query.toLowerCase();
+      result = result.filter(f => (
+        (f.timestamp_formatted || '').includes(qLower) ||
+        (f.description || '').toLowerCase().includes(qLower)
+      ));
+    }
+  }
+
+  filteredFramesList = result;
+  displayedFramesLimit = 120;
+
+  if (framesCountLabel) {
+    const modeText = currentFrameStep === 1 ? '30 FPS' : (currentFrameStep === 30 ? '1s Keyframes' : '5s intervals');
+    framesCountLabel.innerText = `Showing ${Math.min(displayedFramesLimit, filteredFramesList.length).toLocaleString()} of ${filteredFramesList.length.toLocaleString()} frames (${modeText})`;
+  }
+
+  renderFramesBatch();
 }
 
-// Synchronize video player time with transcript
+function renderFramesBatch() {
+  if (!filteredFramesList.length) {
+    framesGrid.innerHTML = '<p style="color: var(--text-muted); padding: 1.5rem;">No matching frames found for current filter.</p>';
+    return;
+  }
+
+  const visibleFrames = filteredFramesList.slice(0, displayedFramesLimit);
+  const remaining = filteredFramesList.length - visibleFrames.length;
+
+  const framesHtml = visibleFrames.map((f, idx) => {
+    const isKeyframe = f.is_second_keyframe || (f.index && f.index % 30 === 0);
+    const hasDesc = f.description && !f.description.startsWith('Visual frame at') && !f.description.startsWith('Visual scene at');
+    const descText = hasDesc ? escapeHtml(f.description) : '';
+
+    return `
+      <div class="frame-item ${isKeyframe ? 'is-keyframe' : ''}" data-time="${f.timestamp}" onclick="seekTo(${f.timestamp})">
+        <div class="frame-thumb-container">
+          <img class="frame-thumb" src="/media/frames/${currentVideoId}/${f.filename}" alt="Frame at ${f.timestamp_formatted}" loading="lazy" onerror="this.style.opacity='0.4';">
+          ${isKeyframe ? '<span class="frame-badge-keyframe">🤖 1s Keyframe</span>' : ''}
+          <span class="frame-badge-time">⏱️ ${f.timestamp_formatted}</span>
+          <span class="frame-badge-idx">#${f.index || (idx + 1)}</span>
+        </div>
+        ${hasDesc ? `<div class="frame-desc-snippet" title="${descText}"><strong>LLM Vision:</strong> ${descText}</div>` : ''}
+        <div class="frame-caption">
+          <span style="color: var(--text-muted); font-size: 0.72rem;">Frame ${f.index || (idx + 1)}${isKeyframe ? ' (1s sample)' : ''}</span>
+          <span class="seek-hint">Seek ↗</span>
+        </div>
+      </div>
+    `;
+  }).join('');
+
+  let loadMoreHtml = '';
+  if (remaining > 0) {
+    loadMoreHtml = `
+      <div style="grid-column: 1 / -1; display: flex; justify-content: center; align-items: center; padding: 1.5rem; gap: 1rem;">
+        <button class="btn-secondary" onclick="loadMoreFrames()" style="padding: 0.6rem 1.5rem; font-weight: 600;">
+          Load More (+120 remaining: ${remaining.toLocaleString()})
+        </button>
+        <button class="btn-secondary" onclick="loadAllFrames()" style="padding: 0.6rem 1rem; opacity: 0.85;">
+          Load All (${filteredFramesList.length.toLocaleString()})
+        </button>
+      </div>
+    `;
+  }
+
+  framesGrid.innerHTML = framesHtml + loadMoreHtml;
+}
+
+window.loadMoreFrames = function() {
+  displayedFramesLimit += 120;
+  if (framesCountLabel) {
+    const modeText = currentFrameStep === 1 ? '30 FPS' : (currentFrameStep === 30 ? '1s Keyframes' : '5s intervals');
+    framesCountLabel.innerText = `Showing ${Math.min(displayedFramesLimit, filteredFramesList.length).toLocaleString()} of ${filteredFramesList.length.toLocaleString()} frames (${modeText})`;
+  }
+  renderFramesBatch();
+};
+
+window.loadAllFrames = function() {
+  displayedFramesLimit = filteredFramesList.length;
+  if (framesCountLabel) {
+    const modeText = currentFrameStep === 1 ? '30 FPS' : (currentFrameStep === 30 ? '1s Keyframes' : '5s intervals');
+    framesCountLabel.innerText = `Showing ${filteredFramesList.length.toLocaleString()} of ${filteredFramesList.length.toLocaleString()} frames (${modeText})`;
+  }
+  renderFramesBatch();
+};
+
+function formatSeconds(sec) {
+  const m = Math.floor(sec / 60);
+  const s = (sec % 60).toFixed(3);
+  return `${String(m).padStart(2, '0')}:${String(s).padStart(6, '0')}`;
+}
+
+// Synchronize video player time with transcript and frame gallery
 function setupVideoPlayerSync() {
   videoPlayer.addEventListener('timeupdate', () => {
     const curr = videoPlayer.currentTime;
-    const rows = transcriptList.querySelectorAll('.transcript-row');
 
+    // 1. Update transcript highlighting
+    const rows = transcriptList.querySelectorAll('.transcript-row');
     rows.forEach(row => {
       const start = parseFloat(row.dataset.start);
       const end = parseFloat(row.dataset.end);
       if (curr >= start && curr <= end) {
         row.classList.add('active');
-        // Auto scroll if needed
         row.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
       } else {
         row.classList.remove('active');
       }
     });
+
+    // 2. Update active frame scrub badge & card highlight
+    if (currentFrameScrub) {
+      currentFrameScrub.innerText = `Active Frame: ${formatSeconds(curr)}`;
+    }
+
+    const frameCards = framesGrid.querySelectorAll('.frame-item');
+    let closestCard = null;
+    let minDiff = 1.0;
+
+    frameCards.forEach(card => {
+      const t = parseFloat(card.dataset.time);
+      const diff = Math.abs(curr - t);
+      if (diff < minDiff) {
+        minDiff = diff;
+        closestCard = card;
+      }
+      card.classList.remove('active');
+    });
+
+    if (closestCard && minDiff < 0.5) {
+      closestCard.classList.add('active');
+    }
   });
 }
 

@@ -1,0 +1,13 @@
+data/*
+uploads/*
+media/*
+data/
+uploads/
+tmp/
+venv/
+*.pyc
+__pycache__/
+.DS_Store
+whisper.cpp/build/
+
+

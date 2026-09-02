@@ -31,9 +31,15 @@ DEFAULT_WHISPER_MODEL = WHISPER_CPP_DIR / "models" / "ggml-base.en.bin"
 # Ollama / Local LLM Configuration
 OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
 DEFAULT_LLM_MODEL = os.getenv("LLM_MODEL", "gemma4:12b-mlx")
-VISION_MODEL = os.getenv("VISION_MODEL", "gemma4:12b-mlx")
+VISION_MODEL = os.getenv("VISION_MODEL", "qwen3.5:9b-mlx")
+LLM_TIMEOUT = int(os.getenv("LLM_TIMEOUT", "300"))
 
-# Processing Defaults
-DEFAULT_KEYFRAME_INTERVAL_SEC = 5.0  # 1 keyframe every 5 seconds
-SCENE_DETECTION_THRESHOLD = 0.35     # Scene change sensitivity (0.0 to 1.0)
-MAX_FRAMES_PER_VIDEO = 300           # Cap for frame analysis to keep inference fast
+# Processing Defaults (30 FPS)
+DEFAULT_FPS = float(os.getenv("DEFAULT_FPS", "30.0"))  # 30 frames per second (1 sec = 30 frames)
+DEFAULT_KEYFRAME_INTERVAL_SEC = 1.0 / DEFAULT_FPS      # 0.0333s step per frame
+SCENE_DETECTION_THRESHOLD = 0.35                       # Scene change sensitivity
+MAX_FRAMES_PER_VIDEO = int(os.getenv("MAX_FRAMES_PER_VIDEO", "18000"))  # Cap up to 10 mins @ 30 FPS
+
+
+
+

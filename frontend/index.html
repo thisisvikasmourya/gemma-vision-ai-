@@ -210,13 +210,30 @@
           <div class="transcript-list" id="transcriptList"></div>
         </div>
 
-        <!-- Tab 3: Visual Frames -->
+        <!-- Tab 3: Visual Frames (30 FPS Frame Inspector) -->
         <div class="tab-pane" id="tabFrames">
           <div class="pane-header">
             <div class="pane-title">
-              <h3>Sampled Keyframe Gallery</h3>
-              <p>Click any frame to jump the video directly to that second</p>
+              <h3>30 FPS Frame Inspector</h3>
+              <p>Explore every 0.033s video frame. Click any frame to seek video instantly.</p>
             </div>
+            <div class="frames-toolbar">
+              <div class="filter-pills" id="frameRateFilter">
+                <button class="pill-btn active" data-step="1">All (30 FPS)</button>
+                <button class="pill-btn" data-step="30">1s Keyframes (LLM Samples)</button>
+                <button class="pill-btn" data-step="150">5s Overview</button>
+              </div>
+              <div class="search-input-wrapper frame-search-wrapper">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+                <input type="text" id="frameTimeSearch" placeholder="Jump time (e.g. 01:25)...">
+              </div>
+            </div>
+          </div>
+          <div class="frames-status-bar">
+            <span id="framesCountLabel">Showing 0 of 0 frames</span>
+            <span id="currentFrameScrub" class="frame-scrub-indicator">Active Frame: --:--.---</span>
           </div>
           <div class="frames-grid" id="framesGrid"></div>
         </div>
